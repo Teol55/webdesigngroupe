@@ -19,15 +19,37 @@
                         </ul>
                     </li>
                 {% else %}
-                    <li class="{{ current_page }}">
+                    <div class="{{ current_page }}">
                         <a href="{{ p.url }}">
                             {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                             {{ p.menu }}
                         </a>
-                    </li>
+                    </div>
                 {% endif %}
             {% endfor %}
         {% endmacro %}
+
+            {% if theme_config.dropdown.enabled %}
+                {{ _self.loop(pages) }}
+            {% else %}
+                {% for page in pages.children.visible %}
+                    {% set current_page = (page.active or page.activeChild) ? 'selected' : '' %}
+                    <div class="{{ current_page }}">
+                        <a href="{{ page.url }}">
+                            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                            {{ page.menu }}
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}{% for mitem in site.menu %}
+                <li>
+                    <a href="{{ mitem.url }}">
+                        {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+                        {{ mitem.text }}
+                    </a>
+                </li>
+            {% endfor %}
+
     </div>
         <div class="contact col-md-6">
             lol test
@@ -36,27 +58,7 @@
 
     </div>
 
-    <ul>
-        {% if theme_config.dropdown.enabled %}
-        {{ _self.loop(pages) }}
-{% else %}
-        {% for page in pages.children.visible %}
-            {% set current_page = (page.active or page.activeChild) ? 'selected' : '' %}
-            <li class="{{ current_page }}">
-                <a href="{{ page.url }}">
-                    {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                    {{ page.menu }}
-                </a>
-            </li>
-        {% endfor %}
-{% endif %}{% for mitem in site.menu %}
-        <li>
-            <a href="{{ mitem.url }}">
-                {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
-                {{ mitem.text }}
-            </a>
-        </li>
-{% endfor %} </ul>
+
 
 
 {# Bloc JS #}
