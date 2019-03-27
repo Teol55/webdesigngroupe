@@ -30,7 +30,7 @@
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body id="top" class="{{ page.header.body_classes }} site-content">
 
 {% block header %}
         {% include 'partials/header.html.twig' %}
@@ -39,7 +39,7 @@
 
 {% block body %}
     <section id="body">
-        <div class="wrapper padding site-content">
+        <div class="wrapper padding">
         {% block content %}{% endblock %}
         </div>
     </section>
