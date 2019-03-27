@@ -250,6 +250,7 @@ a{text-decoration: none;color: inherit;}
 .toggle_btn span:nth-child(4) {
   top: 26px;
 }
+
 .toggle_btn.open span:nth-child(1) {
   top: 18px;
   width: 0%;
