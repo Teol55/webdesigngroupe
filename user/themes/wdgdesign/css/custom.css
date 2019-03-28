@@ -353,7 +353,11 @@ text-transform:uppercase;
 .contact-text {
 
     padding-top: 300px;
+}
 
+/* Boutons font awesome */
+.fab {
+    color: white;
 }
 @media screen and (max-width: 750px) {
     .menu-text {
