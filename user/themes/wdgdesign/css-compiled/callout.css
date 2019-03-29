@@ -4,12 +4,12 @@
   border-bottom-left-radius: 600px;
   border-bottom-right-radius: 600px;
   height: 1200px;
-  display: block;
-}
+  position: relative;
+  z-index: -1;
+  display: block; }
 
 .callout-text {
   color: snow;
-  padding-top: 400px;
-}
+  padding-top: 400px; }
 
 /*# sourceMappingURL=callout.css.map */

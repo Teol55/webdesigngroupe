@@ -5,7 +5,8 @@
   border-bottom-left-radius: 600px;
   border-bottom-right-radius: 600px;
   height: 1200px;
-
+  position: relative;
+  z-index: -1;
   display: block;
 }
 .callout-text
