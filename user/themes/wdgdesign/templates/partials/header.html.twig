@@ -1,0 +1,20 @@
+<div class="header">
+
+    <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
+        <img src="\user\themes\wdgdesign\images\logo.png") alt="logo de WebdesignGroupe">
+        {{ config.site.title }}
+    </a>
+    {% block header_navigation %}
+    {#<div class="menu">#}
+    {#<span class="title">Sitename</span>#}
+    {#<input class="burger" type="checkbox">#}
+
+
+
+                {% block navigation %}
+                    {% include 'partials/navigation.html.twig' %}
+                {% endblock %}
+    {#</div>#}
+
+    {% endblock %}
+</div>
