@@ -1,15 +1,18 @@
 .callout {
   background-image: url("/user/themes/wdgdesign/images/callout.jpg");
+  background-position: 25% 75%;
   background-color: snow;
-  border-bottom-left-radius: 600px;
-  border-bottom-right-radius: 600px;
-  height: 1200px;
+  border-bottom-left-radius: 700px;
+  border-bottom-right-radius: 700px;
+  height: 600px;
   position: relative;
   z-index: -1;
-  display: block; }
+  display: block;
+margin-top: -66px;
+margin-bottom: 100px;}
 
 .callout-text {
   color: snow;
-  padding-top: 400px; }
+  padding-top: 200px; }
 
 /*# sourceMappingURL=callout.css.map */
