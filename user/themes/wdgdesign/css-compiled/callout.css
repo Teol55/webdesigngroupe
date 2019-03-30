@@ -1,6 +1,15 @@
-.callout {
+.callout-Homepage{
   background-image: url("/user/themes/wdgdesign/images/callout.jpg");
   background-position: 25% 75%;
+}
+.callout-agence{
+  background-image: url("/user/themes/wdgdesign/images/callout.jpg");
+  background-position: 25% 75%;
+}
+
+
+.callout {
+
   background-color: snow;
   border-bottom-left-radius: 700px;
   border-bottom-right-radius: 700px;

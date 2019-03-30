@@ -1,9 +1,10 @@
-<div class="callout">
+<div class="callout callout-{{ page.title}}">
 <div class="container ">
     <div class="callout-row">
 <div class="row">
-<div class="col-md-2"></div>
-<div class="callout-text col-lg-8 col-md-offset-2 text-center">
+
+<div class="callout-text col-lg-8 offset-lg-2 text-center">
+    <h1 >{{  page.wdg.class}}</h1>
 {% block content %}
     {{ page.content }}
 {% endblock %}

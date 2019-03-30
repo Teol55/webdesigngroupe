@@ -1,6 +1,12 @@
 ---
 title: Homepage Achievements
 image_align: right
+wdg:
+    class:hompage
+author:
+    name: Sandy Johnson
+    twitter: @sandyjohnson
+    bio: Sandy is a freelance journalist and author of several publications on open source CMS platforms.
 ---
 
 ## WDG POUR VOTRE COMMUNICATION
