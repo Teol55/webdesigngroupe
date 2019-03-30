@@ -334,6 +334,18 @@ text-transform:uppercase;
 .fab {
     color: white;
 }
+.achievements{z-index: 4;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.achievements-text{
+    padding-top: 200px;
+}
+.achievements img
+{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

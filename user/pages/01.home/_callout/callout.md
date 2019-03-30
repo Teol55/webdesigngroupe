@@ -1,5 +1,5 @@
 ---
-title: Homepage Achievements
+title: Homepage
 image_align: right
 bouton: Découvrez-nous
 
