@@ -4,13 +4,13 @@
 <div class="row">
 
 <div class="callout-text col-lg-8 offset-lg-2 text-center">
-    <h1 >{{  page.wdg.class}}</h1>
+<div class="callout-bckg">
 {% block content %}
     {{ page.content }}
 {% endblock %}
     <div class="buttons">
         <button class="blob-btn">
-           Découvrez Nous
+           {{ page.header.bouton }}
             <span class="blob-btn__inner">
       <span class="blob-btn__blobs">
         <span class="blob-btn__blob"></span>
@@ -20,6 +20,6 @@
       </span>
                     </span></button>
 
-    </div>
+    </div></div>
 </div>
 </div></div></div></div>

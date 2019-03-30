@@ -1,9 +1,7 @@
 ---
 title: agence
 image_align: right
-wdg:
-    class:agence
-
+bouton: Le sur mesure
 ---
 
 ## WDG c'est du Sur-mesure
