@@ -27,7 +27,9 @@ html,body
 }
 .wrapper{
     padding-top: 66px;
+
 }
+
 h1,
 h2,
 h3,
@@ -334,17 +336,22 @@ text-transform:uppercase;
 .fab {
     color: white;
 }
-.achievements{z-index: 4;
+.achievements{z-index: -1;
     padding-bottom: 50px;
     padding-left: 20px;
 }
 .achievements-text{
     padding-top: 200px;
+    z-index: -1;
+}
+.achievements-img{
+    z-index: -1;
 }
 .achievements img
 {
     padding-bottom: 30px;
     padding-left: 30px;
+
 }
 @media screen and (max-width: 750px) {
     .menu-text {
