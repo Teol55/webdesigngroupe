@@ -1,16 +1,57 @@
-.callout
-{
-  background-image: url("/user/themes/wdgdesign/images/callout.jpg");
-  background-color: snow;
-  border-bottom-left-radius: 600px;
-  border-bottom-right-radius: 600px;
-  height: 1200px;
+.callout-Homepage{
+  background-image: url("/user/pages/01.home/_callout/callout.jpg");
+  background-position: 25% 75%;
+  z-index: 0;
   position: relative;
-  z-index: -1;
-  display: block;
 }
-.callout-text
-{
+.callout-agence{
+  background-image: url("/user/pages/04.agence/_callout/agence.jpg");
+  background-position: 50% 25%;
+}
+.callout-equipe{
+  background-image: url("/user/pages/08.equipe/_callout/equipe.jpg");
+  background-position: 50% 25%;
+}
+.callout-portfolio{
+  background-image: url("/user/pages/06.portfolio/_callout/portfolio.jpg");
+  background-position: center;
+}
+
+.callout {
+
+  background-color: snow;
+  border-bottom-left-radius: 700px;
+  border-bottom-right-radius: 700px;
+  height: 600px;
+  position: relative;
+  display: block;
+  margin-top: -66px;
+  margin-bottom: 100px;}
+.callout-row{
+  position: relative;
+  z-index: 2;
+}
+.callout-text {
+  position: relative;
+  z-index:3 ;
   color: snow;
-  padding-top: 400px;
+
+  padding-top: 200px; }
+.callout-bckg{
+  position: relative;
+
+  background-color: rgba(	10,10,10,0.2);
+}
+@media screen and (max-width: 750px) {
+  .callout-text{
+    padding-top: 66px;
+  }
+
+}
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 750px) and (max-width: 1280px) {
+
+  .callout-text {
+    padding-top: 100px;
+  }
 }

@@ -1,52 +1,64 @@
-.callout-Homepage{
+@charset "UTF-8";
+.callout-Homepage {
   background-image: url("/user/pages/01.home/_callout/callout.jpg");
   background-position: 25% 75%;
+  z-index: 0;
+  position: relative;
 }
-.callout-agence{
+
+.callout-agence {
   background-image: url("/user/pages/04.agence/_callout/agence.jpg");
-  background-position: center;
+  background-position: 50% 25%;
 }
-.callout-equipe{
+
+.callout-equipe {
   background-image: url("/user/pages/08.equipe/_callout/equipe.jpg");
   background-position: 50% 25%;
 }
-.callout-portfolio{
-  background-image: url("/user/pages/06.portfolio/_callout/portfolio.png");
+
+.callout-portfolio {
+  background-image: url("/user/pages/06.portfolio/_callout/portfolio.jpg");
   background-position: center;
 }
 
 .callout {
-
   background-color: snow;
   border-bottom-left-radius: 700px;
   border-bottom-right-radius: 700px;
   height: 600px;
   position: relative;
-  z-index: -1;
   display: block;
-margin-top: -66px;
-margin-bottom: 100px;}
+  margin-top: -66px;
+  margin-bottom: 100px;
+}
+
+.callout-row {
+  position: relative;
+  z-index: 2;
+}
 
 .callout-text {
-
+  position: relative;
+  z-index: 3;
   color: snow;
-
-  padding-top: 200px; }
-.callout-bckg{
-  background-color: rgba(	10,10,10,0.5);
+  padding-top: 200px;
 }
+
+.callout-bckg {
+  position: relative;
+  background-color: rgba(10, 10, 10, 0.2);
+}
+
 @media screen and (max-width: 750px) {
-  .callout-text{
+  .callout-text {
     padding-top: 66px;
   }
-
 }
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-@media all and (min-width: 750px) and (max-width: 1280px){
-
-  .callout-text{
+@media all and (min-width: 750px) and (max-width: 1280px) {
+  .callout-text {
     padding-top: 100px;
   }
+}
 
-
-}/*# sourceMappingURL=callout.css.map */
+/*# sourceMappingURL=callout.css.map */

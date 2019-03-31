@@ -8,7 +8,10 @@ $openSans: 'Open Sans', Helvetica, Arial, sans-serif;
   background: #0d8eff;
 }
 
-.buttons {
+.buttons
+{
+  position: relative;
+  z-index: 5;
   margin-top: 50px;
   text-align: center;
 
