@@ -359,13 +359,66 @@ text-transform:uppercase;
     padding-left: 30px;
 
 }
+.contact-container
+{
+    position: relative;
+    height: 500px;
+    padding: 20px;
+}
+.form-contact
+{
+    position: relative;
+    background-color: dodgerblue;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 60%;
+}
+.text-contact{
+    position: relative;
+    padding-top: 50px;
+}
+.page-contact-container
+{
+    margin-top: -66px;
+    position: fixed;
+    background:snow url("/user/pages/07.contact/contact.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.page-contact-container .row{
+
+    padding-top: 200px;
+}
+.page-contact-form{
+
+
+background-color: dodgerblue;
+padding-top: 150px;
+padding-bottom: 50px;
+border-top-right-radius: 100%;
+border-bottom-right-radius: 60%;
+border-top-left-radius: 60%;
+
+}
+.page-contact-text{
+    padding-top: 200px;
+}
+.page-contact-text p{
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;
         padding-top: 20px;
         font-size: 18px;
     }
-    .menu-text a{
+
+    .menu-text a {
         padding-top: 15px;
     }
 
@@ -374,11 +427,13 @@ text-transform:uppercase;
         border-top-right-radius: 1500px;
     }
 
-    .contact-text{
-    padding-top:40px;
+    .contact-text {
+        padding-top: 40px;
     }
 
+
 }
+
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 750px) and (max-width: 1280px){
 

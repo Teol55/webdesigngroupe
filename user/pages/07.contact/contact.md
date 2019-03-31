@@ -1,6 +1,5 @@
 ---
-title: contact
-image_align: right
+title: Contact
 form:
     name: contact-form
     fields:
@@ -61,16 +60,12 @@ form:
 
 ---
 
-# Zou ! chez WDG
+# CONTACTEZ NOUS
 
-Ca y est, vous êtes amoureux ? 
-Vous souhaitez nous confier votre joli projet  
-ou nous rencontrer pour vous faire une 
-meilleure idée de qui nous sommes ? 
-Facile ! 
-Il ne reste plus qu'à compléter notre formulaire, 
-nous nous occupons du reste.
-C'est parti !
+14 Place du 77ème Régiment d’Infanterie,   
+Bureau 113,   
+49300 Cholet  
 
-Sinon, vous pouvez appeler Arnaud,
-au 06 10 20 30 50 ou par email à arnaud@WDG.com
+contact@WDG.com
+
+06 10 20 30 40
