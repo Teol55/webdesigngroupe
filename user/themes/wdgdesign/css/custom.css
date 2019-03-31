@@ -363,7 +363,7 @@ text-transform:uppercase;
 {
     position: relative;
     height: 500px;
-    padding: 20px;
+
 }
 .form-contact
 {
@@ -375,10 +375,24 @@ text-transform:uppercase;
     border-bottom-right-radius: 60%;
     border-top-left-radius: 60%;
 }
+.row{
+    margin:0;
+}
 .text-contact{
     position: relative;
     padding-top: 50px;
 }
+.portfolio{
+   background-image: url("/user/pages/01.home/_portfolio/portfolio.png");
+    height: 368px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.portfolio-text{
+    padding-top: 30px;
+    padding-left: 30px;
+color:snow;}
 .page-contact-container
 {
     margin-top: -66px;

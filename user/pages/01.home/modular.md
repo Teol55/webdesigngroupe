@@ -11,6 +11,7 @@ content:
             - _callout
             - _achievements
             - _team
+            - _portfolio
             - _blog
             - _contact
             - _offer
