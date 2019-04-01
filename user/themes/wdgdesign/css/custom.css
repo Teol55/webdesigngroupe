@@ -425,6 +425,14 @@ border-top-left-radius: 60%;
     font-size: 18px;
     text-align: left;
 }
+.presentation{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.presentation img{
+    margin: 20px;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

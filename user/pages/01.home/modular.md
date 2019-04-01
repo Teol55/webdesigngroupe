@@ -9,12 +9,12 @@ content:
     order:
          custom:
             - _callout
-            - _achievements
-            - _team
+            - _achievements            
             - _portfolio
-            - _blog
-            - _contact
-            - _offer
             - _presentation
+            - _contact
+            - _blog            
+            - _offer            
             - _references
+            - _team
 ---

@@ -1,0 +1,13 @@
+
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    {{ page.content }}
+{% set collection = page.collection() %}`
+
+{% for child in collection %}
+    {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+{% endfor %}
+
+{% endblock %}

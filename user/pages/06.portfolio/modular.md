@@ -9,6 +9,6 @@ content:
     order:
          custom:
             - _callout
-            - _contact
+            - _cont
             
 ---
