@@ -433,6 +433,11 @@ border-top-left-radius: 60%;
 .presentation img{
     margin: 20px;
 }
+.text-references
+{
+    text-align: center;
+    padding-top: 250px;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

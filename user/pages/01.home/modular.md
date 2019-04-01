@@ -12,9 +12,9 @@ content:
             - _achievements            
             - _portfolio
             - _presentation
+            - _references
             - _contact
             - _blog            
-            - _offer            
-            - _references
+            - _offer       
             - _team
 ---
