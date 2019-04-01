@@ -11,12 +11,15 @@
     {% include 'partials/metadata.html.twig' %}
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {% do assets.addCss('theme://css/custom.css', 98)%}
+        {% do assets.addCss('theme://css-compiled/bouton.css') %}
+        {% do assets.addCss('theme://css-compiled/callout.css') %}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     {% endblock %}
     {{ assets.css() }}
@@ -30,7 +33,7 @@
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body id="top" class="{{ page.header.body_classes }} site-content">
 
 {% block header %}
         {% include 'partials/header.html.twig' %}
@@ -39,7 +42,7 @@
 
 {% block body %}
     <section id="body">
-        <div class="wrapper padding site-content">
+        <div class="wrapper padding">
         {% block content %}{% endblock %}
         </div>
     </section>
@@ -56,6 +59,13 @@
 {% block bottom %}
     {{ assets.js('bottom') }}
 {% endblock %}
-
-</body>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -7" result="goo"></feColorMatrix>
+            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+        </filter>
+    </defs>
+</svg></body>
 </html>

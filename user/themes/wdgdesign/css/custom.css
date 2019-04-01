@@ -4,7 +4,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-html,body {
+
+
+html,body
+{
+
     font-size: 1rem;
     line-height: 1.4;
     color: #606d6e;
@@ -13,9 +17,19 @@ html,body {
     margin: 0;
     padding: 0;
 }
-.site-content{
-    padding-top: 66px;
+.site-content
+{
+    overflow: scroll;
 }
+.site-content_nav
+{
+    overflow: hidden;
+}
+.wrapper{
+    padding-top: 66px;
+
+}
+
 h1,
 h2,
 h3,
@@ -31,29 +45,7 @@ a {
 a:hover {
     color: #175E91;
 }
-/*pre {*/
-/*background: #F0F0F0;*/
-/*margin: 1rem 0;*/
-/*border-radius: 2px;*/
-/*}*/
-/*blockquote {*/
-/*border-left: 10px solid #eee;*/
-/*margin: 0;*/
-/*padding: 0 2rem;*/
-/*}*/
-/* Utility Classes */
-/*.wrapper {*/
-/*margin: 0 3rem;*/
-/*}*/
-/*.padding {*/
-/*padding: 3rem 1rem;*/
-/*}*/
-/*.left {*/
-/*float: left;*/
-/*}*/
-/*.right {*/
-/*float: right*/
-/*}*/
+
 .text-center {
     text-align: center;
 }
@@ -71,6 +63,7 @@ a:hover {
     background-color:transparent;
     color: #eee;
     position: fixed;
+    z-index: 20;
     left:0;
     right: 0;
     height: 66px;
@@ -87,6 +80,12 @@ a{text-decoration: none;color: inherit;}
     padding: 0 25px;
     float: left;
     color: black;
+    z-index: 3;
+}
+.header img{
+    margin-top: 5px;
+    height:50px;
+    width: 50px;
 }
 .footer {
     background-color: #eee;
@@ -159,15 +158,7 @@ a{text-decoration: none;color: inherit;}
 .main-nav .has-children .has-children > a:after {
     content: '\f105';
 }
-.callout
-{
-    border-radius:120px;
-    border-collapse: collapse;
-    color:white;
-}
-.callout-row{
-    height: 300px;
-}
+
 .Degrade {
     background-image: linear-gradient(60deg,purple, dodgerblue);
     border-top-right-radius: 50px;
@@ -192,6 +183,7 @@ a{text-decoration: none;color: inherit;}
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor:pointer;
+    z-index: 20;
 }
 
 .toggle_btn span{
@@ -287,6 +279,7 @@ a{text-decoration: none;color: inherit;}
     height:1000px;
     background-color:snow;
     width:100%;
+    font-weight: bold;
 
 }
 .menu-text a{
@@ -302,17 +295,23 @@ a{text-decoration: none;color: inherit;}
 
 }
 
-.logo {
-    text-transfom:uppercase;
+.logo
+{
+text-transform:uppercase;
     font-weight:bold;
     font-size:24px;
 
 }
-.navi{
+.menu{
+
+    position: absolute;
+    width: 100%;
     margin-left:200%;
-    transition-duration:0.5s;
+    transition-duration:2s;
+
 }
-.nav_open{
+.nav_open
+{
     background-color: snow;
     margin-left:0px;
     transition-duration:0.5s;
@@ -321,15 +320,181 @@ a{text-decoration: none;color: inherit;}
 }
 .contact
 {
+    margin-top: -100px;
     text-align: center;
     color:white;
     background-image: linear-gradient(60deg,purple, dodgerblue);
     border-top-left-radius:1500px;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 500px;
     background-color:blue;
     height:1000px;
+    border-bottom: black;
 }
+<<<<<<< HEAD
 .contact-text{
     padding-top: 300px;
+=======
+.contact-text {
+
+    padding-top: 300px;
 }
+
+/* Boutons font awesome */
+.fab {
+    color: white;
+}
+
+.achievements{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.achievements-text{
+    position: relative;
+    padding-top: 200px;
+    z-index: 1;
+}
+.achievements-img
+{
+    position: relative;
+    z-index: -1;
+}
+.achievements img
+{
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+.contact-container
+{
+    position: relative;
+    height: 500px;
+    padding: 20px;
+}
+.form-contact
+{
+    position: relative;
+    background-color: dodgerblue;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 60%;
+}
+.text-contact{
+    position: relative;
+    padding-top: 50px;
+}
+.page-contact-container
+{
+    margin-top: -66px;
+    position: fixed;
+    background:snow url("/user/pages/07.contact/contact.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.page-contact-container .row{
+
+    padding-top: 200px;
+}
+.page-contact-form{
+
+
+background-color: dodgerblue;
+padding-top: 150px;
+padding-bottom: 50px;
+border-top-right-radius: 100%;
+border-bottom-right-radius: 60%;
+border-top-left-radius: 60%;
+
+}
+.page-contact-text{
+    padding-top: 200px;
+}
+.page-contact-text p{
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
+@media screen and (max-width: 750px) {
+    .menu-text {
+        height: 400px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .menu-text a {
+        padding-top: 15px;
+    }
+
+    .contact {
+        margin-top: -50px;
+        border-top-right-radius: 1500px;
+    }
+
+    .contact-text {
+        padding-top: 40px;
+    }
+
+      .example-desc {
+        margin:3px 0;
+        padding:5px;
+      }
+
+      #carousel {
+        width:500px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        /*visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+.team{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+>>>>>>> menu-tof
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 750px) and (max-width: 1280px){
+
+    .contact {
+        margin-top: -10px;
+        border-bottom-left-radius: 1500px;
+    }
+
+    .contact-text{
+        padding-top:300px;
+    }
+
+
+}
+

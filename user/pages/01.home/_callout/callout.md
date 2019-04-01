@@ -1,8 +1,13 @@
 ---
-title: Homepage Achievements
+title: Homepage
 image_align: right
+bouton: Découvrez-nous
+
+   
+
 ---
 
-## WDG une Agence au TOP
+## WDG POUR VOTRE COMMUNICATION
 
-Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur et tabernas et vilitates harum similis alias, summatim causas perstringam nusquam a veritate sponte propria digressurus.
+Nous vous proposons plus qu'une simple communication digitale, nous vous proposons **LA** communication qui s'adapte parfaitement à vos besoins et à votre budget!
+Fini les projets stéréotypés,nous cherchons à faire un projet sur mesure afin que vous sortiez du lot.
