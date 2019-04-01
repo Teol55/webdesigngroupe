@@ -3,8 +3,8 @@
 
         {% for image in page.media.images %}
 
-                <div class="col-md-4">
-                    {{ image.cropResize(400,400).html }}
+                <div class="col-sm-12 col-md-4">
+                    {{ image.cropResize(500,500).html }}
                 </div>
 
         {% endfor %}
@@ -12,7 +12,7 @@
 
 </div>
 <div class="row">
-    <div class="col-md-4 offset-4">
+    <div class="col-sm-12 col-md-4 offset-4">
     <a href="contact">
         <div class="buttons">
             <button class="blob-btn">
