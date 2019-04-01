@@ -436,6 +436,42 @@ border-top-left-radius: 60%;
     font-size: 18px;
     text-align: left;
 }
+
+/*FORMULAIRE*/
+.form-input-wrapper input 
+{
+	height: 50px;
+	width : 350px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.form-textarea-wrapper textarea 
+{
+	width: 350px;
+	height: 200px;
+	border:0px;
+	border-radius: 5px;
+}
+.page-contact-form label 
+{
+	color:#ffffff;
+	font-family:roboto;
+	font-size:14px;
+	text-align:left;
+}
+
+.page-contact-form button
+{
+	border-radius:20px;
+	width:200px;
+	padding:10px;
+	border:3px solid #ffb500;
+	background-color:transparent;
+	color:#ffffff;
+	font-family: roboto;
+	font-weight:bold;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;
