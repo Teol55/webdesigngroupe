@@ -35,9 +35,7 @@ html,body
 }
 .wrapper{
     padding-top: 66px;
-
 }
-
 h1,
 h2,
 h3,
@@ -167,7 +165,15 @@ a{text-decoration: none;color: inherit;}
 .main-nav .has-children .has-children > a:after {
     content: '\f105';
 }
-
+/*.callout*/
+/*{*/
+    /*border-radius:120px;*/
+    /*border-collapse: collapse;*/
+    /*color:white;*/
+/*}*/
+/*.callout-row{*/
+    /*height: 300px;*/
+/*}*/
 .Degrade {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0575D5+0,00EDFF+100 */
 background: #0575D5; /* Old browsers */
@@ -341,7 +347,8 @@ background: -webkit-linear-gradient(top, #0575D5 0%,#00EDFF 100%); /* Chrome10-2
 background: linear-gradient(to bottom, #0575D5 0%,#00EDFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0575D5', endColorstr='#00EDFF',GradientType=0 ); /* IE6-9 */
     border-top-left-radius:1500px;
-    border-bottom-left-radius: 1500px;
+    border-bottom-left-radius: 500px;
+
     background-color:blue;
     height:1000px;
     border-bottom: black;
@@ -355,6 +362,149 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0575D5', end
 .fab {
     color: white;
 }
+
+/*.achievements{*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*padding-bottom: 50px;*/
+    /*padding-left: 20px;*/
+/*}*/
+/*.achievements-text{*/
+    /*position: relative;*/
+    /*padding-top: 200px;*/
+    /*z-index: 1;*/
+/*}*/
+/*.achievements-img*/
+/*{*/
+    /*position: relative;*/
+    /*z-index: -1;*/
+/*}*/
+/*.achievements img*/
+/*{*/
+    /*padding-bottom: 30px;*/
+    /*padding-left: 30px;*/
+
+/*}*/
+/*.contact-container*/
+/*{*/
+    /*position: relative;*/
+    /*height: 500px;*/
+
+/*}*/
+/*.form-contact*/
+/*{*/
+    /*position: relative;*/
+    /*background-color: dodgerblue;*/
+    /*padding-top: 80px;*/
+    /*padding-bottom: 20px;*/
+    /*border-top-right-radius: 100%;*/
+    /*border-bottom-right-radius: 60%;*/
+    /*border-top-left-radius: 60%;*/
+/*}*/
+/*.row{*/
+    /*margin:0;*/
+/*}*/
+/*.text-contact{*/
+    /*position: relative;*/
+    /*padding-top: 50px;*/
+/*}*/
+/*.portfolio{*/
+   /*background-image: url("/user/pages/01.home/_portfolio/portfolio.png");*/
+    /*height: 368px;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+
+/*}*/
+/*.portfolio-text{*/
+    /*padding-top: 30px;*/
+    /*padding-left: 30px;*/
+/*color:snow;}*/
+/*.page-contact-container*/
+/*{*/
+    /*margin-top: -66px;*/
+    /*position: fixed;*/
+    /*background:snow url("/user/pages/07.contact/contact.jpg") no-repeat center;*/
+
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+/*.page-contact-container .row{*/
+
+    /*padding-top: 200px;*/
+/*}*/
+/*.page-contact-form{*/
+
+
+/*background-color: dodgerblue;*/
+/*padding-top: 150px;*/
+/*padding-bottom: 50px;*/
+/*border-top-right-radius: 100%;*/
+/*border-bottom-right-radius: 60%;*/
+/*border-top-left-radius: 60%;*/
+
+/*}*/
+/*.page-contact-text{*/
+    /*padding-top: 200px;*/
+/*}*/
+/*.page-contact-text p{*/
+    /*color:white;*/
+    /*font-size: 18px;*/
+    /*text-align: left;*/
+/*}*/
+.presentation{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.presentation img{
+    margin: 20px;
+}
+.text-references
+{
+    text-align: center;
+    padding-top: 250px;
+}
+
+/* -------Carousel Jquery------- */
+      #carousel {
+        width:500px;
+        height:200px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        /*visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer;
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+
+.team{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+/*----------------------------------*/
+
 
 .achievements{
     position: relative;
@@ -416,8 +566,7 @@ color:snow;}
 {
     margin-top: -66px;
     position: fixed;
-    background:snow url("/user/pages/07.contact/contact.jpg") no-repeat;
-    background-position: center;
+    background:snow url("/user/pages/07.contact/contact.jpg") no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -446,7 +595,7 @@ border-top-left-radius: 60%;
 }
 
 /*FORMULAIRE*/
-.form-input-wrapper input 
+.form-input-wrapper input
 {
 	height: 50px;
 	width : 350px;
@@ -454,14 +603,14 @@ border-top-left-radius: 60%;
 	border-radius: 5px;
 }
 
-.form-textarea-wrapper textarea 
+.form-textarea-wrapper textarea
 {
 	width: 350px;
 	height: 200px;
 	border:0px;
 	border-radius: 5px;
 }
-.page-contact-form label 
+.page-contact-form label
 {
 	color:#ffffff;
 	font-family:roboto;
@@ -497,10 +646,31 @@ border-top-left-radius: 60%;
     }
 
     .contact-text {
-        padding-top: 80px;
+        padding-top: 40px;}
+
+    .achievements img
+    {
+        padding-bottom: 10px;
+        padding-left: 0px;
+        height: 200px;
+        width: 200px;
+    }
+    .portfolio-text{
+        /*padding-top: 30px;*/
+   /*padding-bottom: 1260px;*/
+        /*padding-left: 0px;*/
+        color:snow;}
+    .portfolio{
+        padding-bottom: 500px;
+        background: url("/user/pages/01.home/_portfolio/portfolio.png") no-repeat;
+    }
+    .presentation img{
+        margin: 5px;
+        height: 200px;
+        width: 200px;
     }
 	h1{
-	font-size:1.7em;	
+	font-size:1.7em;
 	}
 
 }
@@ -519,3 +689,4 @@ border-top-left-radius: 60%;
 
 
 }
+

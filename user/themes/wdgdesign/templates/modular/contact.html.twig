@@ -1,12 +1,16 @@
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
-            <div class="row">
 
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
-                    {% block content %}
+    <div class="contact-container">
+
+            <div class="row">
+                <div class="form-contact col-md-4 text-center">
+                    {% include "forms/form.html.twig" %}
+                </div>
+
+                <div class="text-contact col-md-4 offset-2 text-center">
+                  {% block content %}
                         {{ page.content }}
                     {% endblock %}
                 </div>
-            </div></div></div></div>
+
+            </div></div>

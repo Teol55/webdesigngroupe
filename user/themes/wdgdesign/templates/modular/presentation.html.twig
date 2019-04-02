@@ -1,12 +1,30 @@
+<div class="presentation">
+<div class="row">
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
-            <div class="row">
+        {% for image in page.media.images %}
 
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
-                    {% block content %}
-                        {{ page.content }}
-                    {% endblock %}
+                <div class="col-sm-12 col-md-4">
+                    {{ image.cropResize(500,500).html }}
                 </div>
-            </div></div></div></div>
+
+        {% endfor %}
+
+
+</div>
+<div class="row">
+    <div class="col-sm-12 col-md-4 offset-4">
+    <a href="contact">
+        <div class="buttons">
+            <button class="blob-btn">
+                {{ page.header.bouton }}
+                <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+                    </span></button>
+
+        </div></a></div>
+</div></div>
