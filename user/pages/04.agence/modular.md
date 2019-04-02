@@ -8,8 +8,9 @@ content:
     items: '@self.modular'
     order:
          custom:
-            - _callout
+            - _callout           
             - _vision
+            - _together
             - _contact
             
 ---

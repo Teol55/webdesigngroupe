@@ -451,10 +451,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0575D5', end
 .presentation img{
     margin: 20px;
 }
-.text-references
-{
+.text-references {
     text-align: center;
     padding-top: 250px;
+}
+.together{
+    background-image: url("/user/pages/04.agence/_together/ensemble.jpg");
+    background-position: 25% 50%;
+    z-index: 0;
+    position: relative;
+    height: 400px;
 }
 
 /* -------Carousel Jquery------- */
