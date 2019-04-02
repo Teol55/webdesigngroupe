@@ -45,14 +45,31 @@
                     {% block content %}
                         {{ page.content }}
                     {% endblock %}
+	            {# Bouton #}
+	                <a href="team">
+	                    <div class="buttons">
+	                        <button class="blob-btn">
+	                            {{ page.header.bouton }}
+	                            	<span class="blob-btn__inner">
+									      <span class="blob-btn__blobs">
+									        <span class="blob-btn__blob"></span>
+									        <span class="blob-btn__blob"></span>
+									        <span class="blob-btn__blob"></span>
+									        <span class="blob-btn__blob"></span>
+									      </span>
+	                    			</span>
+	                		</button>
+	                    </div>
+	                </a>
                 </div>
+           
 
-
-    <div class="offset-md-1 col-md-6" id="carousel">
-      <a href="#"><img src="images/Arno.jpg" id="item-1" /></a>
-      <a href="#"><img src="images/Arno-Baunel.jpg" id="item-2" /></a>
-      <a href="#"><img src="images/Christof.jpg" id="item-3" /></a>
-      <a href="#"><img src="images/Tifn.jpg" id="item-4" /></a>
-    </div>
-  </div>
-                </div>
+	            {# Carousel #}
+			    <div class="col-md-7" id="carousel">
+			      <a href="#"><img src="images/Tifn.jpg" id="tifn" title="Tiphaine" alt="Tifn" /></a>
+			      <a href="#"><img src="images/Arno.jpg" id="arno" title="Arnaud" alt="Arnaud"/></a>
+			      <a href="#"><img src="images/Arno-Baunel.jpg" id="arno-baunel" title="Arnaud-Baunel" alt="Arnaud-Baunel" /></a>
+			      <a href="#"><img src="images/Christof.jpg" id="christof" title="Christophe" alt="Christof" /></a>    
+			    </div>
+  			</div>
+</div>
