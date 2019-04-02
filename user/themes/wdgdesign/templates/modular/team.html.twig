@@ -1,12 +1,58 @@
+   
+   <script type="text/javascript" src="user/themes/wdgdesign/js/carousel.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
+        $('#prev').on('hover', function () {
+          carousel.prev();
+          return false
+        });
+
+        $('#next').on('hover', function () {
+          carousel.next();
+          return false;
+        });
+
+        $('#reload').on('hover', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carousel.reload(newOptions);
+          return false;
+        });
+
+      });
+    </script>
+    <div class="team">
             <div class="row">
-
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
+                <div class="textteam col-md-5 text-center">
                     {% block content %}
                         {{ page.content }}
                     {% endblock %}
                 </div>
-            </div></div></div></div>
+
+
+    <div class="offset-md-1 col-md-6" id="carousel">
+      <a href="#"><img src="images/Arno.jpg" id="item-1" /></a>
+      <a href="#"><img src="images/Arno-Baunel.jpg" id="item-2" /></a>
+      <a href="#"><img src="images/Christof.jpg" id="item-3" /></a>
+      <a href="#"><img src="images/Tifn.jpg" id="item-4" /></a>
+    </div>
+  </div>
+                </div>

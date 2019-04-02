@@ -438,6 +438,47 @@ border-top-left-radius: 60%;
     text-align: center;
     padding-top: 250px;
 }
+
+/* -------Carousel Jquery------- */
+      #carousel {
+        width:500px;
+        height:200px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        /*visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer;
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+
+.team{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+/*----------------------------------*/
+
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;
