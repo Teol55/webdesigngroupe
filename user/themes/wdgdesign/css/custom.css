@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'leixodemo';
+    src: url('../fonts/leixo-demo.woff2') format('woff2'),
+         url('../fonts/leixo-demo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html,body
 {
@@ -37,7 +45,7 @@ h4,
 h5,
 h6 {
     color: #ffb500;
-	font-family: 'LEIXO DEMO';
+	font-family: 'leixodemo';
 }
 a {
     color: #1F8CD6;
