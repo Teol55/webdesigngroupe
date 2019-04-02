@@ -1,0 +1,16 @@
+{% extends 'partials/base.html.twig' %}
+            {% block content %}
+                <div class="page-contact-container ">
+
+                    <div class="row">
+                        <div class="page-contact-form col-md-4 text-center">
+                            {% include "forms/form.html.twig" %}
+                        </div>
+
+                        <div class="page-contact-text col-md-4 offset-2 text-center">
+
+                            {{ page.content }}
+                        </div>
+
+                    </div></div>
+            {% endblock %}

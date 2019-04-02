@@ -1,12 +1,42 @@
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
+
+    <div class="achievements">
             <div class="row">
 
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
+                <div class="col-md-6 text-center achievements-text">
                     {% block content %}
                         {{ page.content }}
                     {% endblock %}
+                    <a href="contact">
+                    <div class="buttons">
+                        <button class="blob-btn">
+                            {{ page.header.bouton }}
+                            <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+                    </span></button>
+
+                    </div></a>
                 </div>
-            </div></div></div></div>
+                <div class="col-md-6 achievements-img">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <img src="/user/pages/01.home/_achievements/design.png"/>
+                        </div>
+                        <div class="col-md-6">
+                        <img src="/user/pages/01.home/_achievements/formation.png"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <img src="/user/pages/01.home/_achievements/marketing.png"/>
+                        </div>
+                            <div class="col-md-6">
+                        <img src="/user/pages/01.home/_achievements/site.png"/>
+                            </div>
+                    </div>
+                </div></div></div>
