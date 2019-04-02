@@ -621,6 +621,10 @@ border-top-left-radius: 60%;
 	font-family: roboto;
 	font-weight:bold;
 }
+.text-vision{
+  margin-left: 5px;
+    padding-top: 80px;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

@@ -1,0 +1,26 @@
+<div class="presentation">
+    <div class="row">
+        <div class="col-md-4 text-vision text-center">
+            {% block content %}
+                {{ page.content }}
+            {% endblock %}
+
+
+
+
+
+        </div>
+        <div class="col-md-4 offset-2 ">
+
+            {% for image in page.media.images %}
+
+
+                    {{ image.cropResize(500,500).html }}
+
+
+            {% endfor %}
+
+
+
+    </div>
+    </div></div>
