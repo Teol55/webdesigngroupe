@@ -14,7 +14,7 @@ content:
             - _portfolio
             - _presentation
             - _references
-            - _contact
-            - _blog            
+            - _blog   
+            - _contact                     
             - _offer       
 ---

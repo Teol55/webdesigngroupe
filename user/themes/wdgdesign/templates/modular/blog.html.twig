@@ -1,12 +1,39 @@
+<div class="accueil-blog">
+    <div class="row">
+        <div class="col-md-4 text-blog text-center">
+            {% block content %}
+                {{ page.content }}
+            {% endblock %}
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
-            <div class="row">
+            {% include 'partials/buton.html.twig' %}
 
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
-                    {% block content %}
-                        {{ page.content }}
-                    {% endblock %}
+
+
+        </div>
+
+
+            <div class="col-md-6 offset-md-1 sidebar-content recent-posts">
+                <h3>NOS ARTICLES RECENTS</h3>
+                <div class="row">
+                {% for p in page.find('/blog').children.order('date', 'desc').slice(0, 2) %}
+                    {% set bannerimage = p.media['banner.jpg'] %}
+                    <div class="col-xs-12 col-md-6 recent-post">
+                        {% if bannerimage %}
+                            <div class="recent-post-image">{{ bannerimage.cropZoom(300,200).quality(60) }}</div>
+                        {% else %}
+                            <div class="recent-post-image"><img src="{{ url('theme://images/logo.png') }}" width="60" height="60"></div>
+                        {% endif %}
+                        <div class="recent-post-text">
+                            <h4><a href="{{p.url}}">{{ p.title }}</a></h4>
+                            <p>{{ p.date|date("M j, Y")}}</p>
+                            <p>{{ p.summary }}</p>
+                        </div>
+                       <div class="text-lien"><a href="blog">Consultez notre blog</a></div>
+                    </div>
+                {% endfor %}
                 </div>
-            </div></div></div></div>
+
+
+
+        </div>
+    </div></div>

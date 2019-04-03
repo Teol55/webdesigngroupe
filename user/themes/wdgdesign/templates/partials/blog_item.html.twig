@@ -3,7 +3,7 @@
     <div class="entry-media {% if truncate %}entry-{% if page.header.youtube or page.header.soundcloud or page.header.vimeo %}video{% else %}image{% endif %}{% else %} resp_video{% endif %}">
         <figure class="post-thumbnail">
             {% if page.media.images|first %}
-                {{ page.media.images|first.cropZoom(338,451).html('','', 'attachment-receptar-featured size-receptar-featured wp-post-image') }}
+                {{ page.media.images|first.cropZoom(400,400).html('','', 'attachment-receptar-featured size-receptar-featured wp-post-image') }}
             {% else %}
                 <img class="attachment-receptar-featured size-receptar-featured wp-post-image" src="{{ theme_url }}/images/{{ site.global_featured_image }}">
             {% endif %}
@@ -199,7 +199,7 @@
                 <div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
                     <h3 class="jp-relatedposts-headline"><em>{{ 'RELATED_POSTS'|t }}</em></h3>
                     <div class="jp-relatedposts-items jp-relatedposts-items-visual">
-                        {% include 'partials/relatedpages.html.twig' %}
+                        {#{% include 'partials/relatedpages.html.twig' %}#}
                     </div>
                 </div>
                 <hr/>
@@ -219,7 +219,7 @@
                     <div class="comments-area-wrapper">
                         <div class="comments-area">
                             <h2 class="comments-title">{{ grav.twig.comments|length }} Comments:</h2>
-                            {% include 'partials/comments.html.twig' with {'page': page} %}
+                            {#{% include 'partials/comments.html.twig' with {'page': page} %}#}
                         </div>
                     </div>
                 {% endif %}

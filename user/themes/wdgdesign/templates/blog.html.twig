@@ -3,11 +3,36 @@
 
 {% block content %}
 
-    {{ page.content }}
+    <div class="callout callout-{{ page.title}}">
+        <div class="container ">
+            <div class="callout-row">
+                <div class="row">
+
+                    <div class="callout-text col-lg-8 offset-lg-2 text-center">
+
+
+                                {{ page.content }}
+
+
+
+                    </div>
+                </div></div></div></div>
+
+<div class="row">
+    <div class="col-md-10">
+<div class="row">
 {% set collection = page.collection() %}`
 
 {% for child in collection %}
+    <div class="col-md-5">
     {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
-{% endfor %}
+    </div>
+{% endfor %}</div></div>
+<div class="col-md-2 blog-aside">
+
+    texte lol
+
+</div>
+</div>
 
 {% endblock %}

@@ -639,6 +639,37 @@ border-top-left-radius: 60%;
   margin-left: 5px;
     padding-top: 80px;
 }
+                            /*Page d'accueil partie blog*/
+
+.recent-posts h3{
+    text-align: center;
+}
+.recent-post{
+
+    padding: 5px;
+}
+.text-lien{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+
+
+}
+.recent-post img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.text-blog{
+    margin-left: 5px;
+    padding-top: 80px;
+
+}
+                                 /*css de la page blog*/
+.blog-aside{
+    background-color: #0fe0f5;
+}
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

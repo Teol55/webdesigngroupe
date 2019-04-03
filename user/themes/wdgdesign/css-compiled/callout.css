@@ -20,6 +20,11 @@
   background-image: url("/user/pages/06.portfolio/_callout/portfolio.jpg");
   background-position: center;
 }
+.callout-Blog{
+  background-image: url("/user/pages/03.blog/blog.jpg");
+  background-position: center;
+}
+
 
 .callout {
   background-color: snow;
