@@ -6,16 +6,16 @@ min_query_length: 3
 route: /search
 search_content: rendered
 template: simplesearch_results
-filters:
-    category:
 filter_combinator: and
 ignore_accented_characters: true
 order:
-    by: date
-    dir: desc
+  by: date
+  dir: desc
 simplesearch:
-    route: @self
-    filters:
-        - @self
-        - @taxonomy: [symfony]
-    filter_combinator: and
+  route: '@self'
+  filters:
+    - '@self'
+    -
+      '@taxonomy':
+        - symfony
+  filter_combinator: and

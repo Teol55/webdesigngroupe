@@ -43,3 +43,5 @@ debugger:
 gpm:
   releases: stable
   verify_peer: true
+languages:
+  supported: [fr]
