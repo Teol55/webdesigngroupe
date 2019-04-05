@@ -1,12 +1,30 @@
+<div class="accueil-blog">
+    <div class="row">
+        <div class="col-md-4 text-blog text-center">
+            {% block content %}
+                {{ page.content }}
+            {% endblock %}
 
-<div class="Degrade">
-    <div class="container ">
-        <div class="callout-row">
-            <div class="row">
+            {% include 'partials/buton.html.twig' %}
 
-                <div class="callout col-md-6-12 col-md-pull-3 text-center">
-                    {% block content %}
-                        {{ page.content }}
-                    {% endblock %}
+
+
+        </div>
+
+
+            <div class="col-md-6 offset-md-1 sidebar-content recent-posts">
+                <div class="row">
+                {% for image in page.media.images %}
+
+                    <div class="col-md-4">
+
+                        {{ image.cropResize(700,700).html }}
+                        <div class="circle-offer">Perso</div>
+                    </div>
+
+                {% endfor %}
                 </div>
-            </div></div></div></div>
+
+
+        </div>
+    </div></div>

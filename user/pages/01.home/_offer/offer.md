@@ -1,8 +1,18 @@
 ---
 title: Blog de l'agence
 image_align: right
+bouton: Votre joli projet
+lien: contact
+color: red
 ---
 
-## Partie Pour les offres
+## WDG c'est combien ?
 
-Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur et tabernas et vilitates harum similis alias, summatim causas perstringam nusquam a veritate sponte propria digressurus.
+Parce qu'on souhaite être
+transparent avec nos futurs clients, 
+mais aussi avec ceux qui nous suivent
+on ne cache pas nos tarifs.
+Beaucoup de projets sont fait sur
+devis, alors n'hésitez pas à nous
+demander, on est toujours disponible
+pour parler ! (surtout Arnaud ! )

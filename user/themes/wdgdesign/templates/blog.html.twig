@@ -32,6 +32,13 @@
 
     {% include 'partials/simplesearch_searchbox.html.twig' %}
 
+    <span class="tags-links entry-meta-element">
+
+          {% for tag in page.taxonomy.tag %}
+              <a href="{{ base_url }}/tag:{{ tag }}" rel="tag">#{{ tag }}{% if not loop.last %}, {% endif %}</a>
+          {% endfor %}
+        </span>
+
 </div>
 </div>
 

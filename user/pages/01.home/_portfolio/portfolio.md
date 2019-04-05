@@ -2,6 +2,8 @@
 title: présentation
 image_align: right
 bouton: Nos réalisations
+lien: contact
+color: cyan
 ---
 
 ###C'est nous qui l'avons fait !

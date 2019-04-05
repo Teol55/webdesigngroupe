@@ -4,6 +4,10 @@ menu: Nos articles
 blog_url: blog
 body_classes: header-image fullwidth
 
+taxonomy:
+    category: Framework, mvc
+    tag: [Framework, mvc]
+    
 sitemap:
     changefreq: monthly
     priority: 1.03

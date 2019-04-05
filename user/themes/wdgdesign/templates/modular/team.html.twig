@@ -46,21 +46,7 @@
                         {{ page.content }}
                     {% endblock %}
 	            {# Bouton #}
-	                <a href="team">
-	                    <div class="buttons">
-	                        <button class="blob-btn">
-	                            {{ page.header.bouton }}
-	                            	<span class="blob-btn__inner">
-									      <span class="blob-btn__blobs">
-									        <span class="blob-btn__blob"></span>
-									        <span class="blob-btn__blob"></span>
-									        <span class="blob-btn__blob"></span>
-									        <span class="blob-btn__blob"></span>
-									      </span>
-	                    			</span>
-	                		</button>
-	                    </div>
-	                </a>
+					{% include 'partials/buton.html.twig' %}
                 </div>
            
 

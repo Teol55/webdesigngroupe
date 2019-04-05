@@ -2,6 +2,9 @@
 title: equipe
 image_align: right
 bouton: L'équipe
+lien: contact
+color: red
+   
 ---
 
 ## WDG c'est une Equipe A votre service 

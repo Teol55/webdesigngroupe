@@ -6,6 +6,11 @@ taxonomy:
     tag: [Framework, mvc]
 author:
     name: Christophe
+    
+bouton: Lire un autre article
+lien: 
+color: yellow
+
 ---
 
 Les développeurs Symfony qui maîtrisent le framework pourront facilement intégrer un projet développé à partir du framework, contrairement à un projet développé en PHP “maison”, où il n’y’a pas de normes ni règles imposées. Dans ce dernier cas, la phase d’apprentissage et reprise du code existant peut demander un effort conséquent pour le nouveau développeur intégrant le projet.

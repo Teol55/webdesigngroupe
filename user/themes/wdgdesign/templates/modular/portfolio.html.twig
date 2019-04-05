@@ -9,19 +9,6 @@
                     {% block content %}
                         {{ page.content }}
                     {% endblock %}
-                    <a href="contact">
-                    <div class="buttons">
-                        <button class="blob-btn">
-                            {{ page.header.bouton }}
-                            <span class="blob-btn__inner">
-      <span class="blob-btn__blobs">
-        <span class="blob-btn__blob"></span>
-        <span class="blob-btn__blob"></span>
-        <span class="blob-btn__blob"></span>
-        <span class="blob-btn__blob"></span>
-      </span>
-                    </span></button>
-
-                                        </div></a></div>
+                        {% include 'partials/buton.html.twig' %}</div>
                 </div>
             </div></div>

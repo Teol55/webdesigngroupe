@@ -2,6 +2,8 @@
 title: Achievements
 image_align: right
 bouton: Le sur mesure
+lien: contact
+color: yellow
 ---
 
 ## WDG c'est du Sur-mesure

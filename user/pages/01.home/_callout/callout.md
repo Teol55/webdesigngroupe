@@ -2,7 +2,8 @@
 title: Homepage
 image_align: right
 bouton: Découvrez-nous
-
+lien: contact
+color: red
    
 
 ---

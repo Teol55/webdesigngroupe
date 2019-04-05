@@ -2,6 +2,9 @@
 title: portfolio
 image_align: right
 bouton: Tous voir !
+lien: contact
+color: red
+   
 ---
 
 ## C'est nous qui l'avons fait !

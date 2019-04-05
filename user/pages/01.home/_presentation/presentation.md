@@ -2,7 +2,8 @@
 title: présentation
 image_align: right
 bouton: Tous voir !
-
+lien: contact
+color: yellow
 
 ---
 
