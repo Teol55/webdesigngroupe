@@ -1,4 +1,4 @@
-<div class="accueil-blog">
+<div class="accueil-offer">
     <div class="row">
         <div class="col-md-4 text-blog text-center">
             {% block content %}
@@ -14,15 +14,25 @@
 
             <div class="col-md-6 offset-md-1 sidebar-content recent-posts">
                 <div class="row">
-                {% for image in page.media.images %}
+
 
                     <div class="col-md-4">
 
-                        {{ image.cropResize(700,700).html }}
-                        <div class="circle-offer">Perso</div>
+                        {{page.media['tarif1.jpg']}}
+                        <div class="circle-offer">Perso<br>A partir de 500€</div>
+                    </div>
+                    <div class="col-md-4">
+
+                        {{page.media['tarif2.jpg']}}
+                        <div class="circle-offer">Advanced<br>A partir de 800€</div>
+                    </div>
+                    <div class="col-md-4">
+
+                        {{page.media['tarif3.jpg']}}
+                        <div class="circle-offer">Business<br>A partir de 1200€</div>
                     </div>
 
-                {% endfor %}
+
                 </div>
 
 
