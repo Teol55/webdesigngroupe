@@ -2,6 +2,9 @@
 title: agence
 image_align: right
 bouton: Le sur mesure
+lien: equipe
+color: yellow
+position: 50% 25%
 ---
 
 ## WDG c'est du Sur-mesure

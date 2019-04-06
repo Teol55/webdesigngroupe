@@ -4,7 +4,7 @@ image_align: right
 bouton: L'équipe
 lien: contact
 color: red
-   
+position: 50% 25%   
 ---
 
 ## WDG c'est une Equipe A votre service 

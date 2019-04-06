@@ -1,0 +1,10 @@
+
+<div class="text-aside">
+{% include 'partials/simplesearch_searchbox.html.twig' %} <br>
+
+
+
+{% for tag in page.taxonomy.tag %}
+    <a href="{{ base_url }}/search/query:{{ tag }}" rel="tag">#{{ tag }}<br></a>
+{% endfor %}
+</div>

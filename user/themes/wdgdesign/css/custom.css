@@ -579,11 +579,48 @@ border-top-left-radius: 60%;
 
 }
                                  /*css de la page blog*/
-.blog-aside{
-    background-color: #0fe0f5;
+
+article{
+
+    margin-bottom: 5%;
 }
 
-                                    /*css module offer dans la page d'accueil*/
+.text-aside{
+    padding-top: 20%;
+}
+.blog-aside{
+
+    background-color: dodgerblue;
+    display: block;
+    padding: 5px;
+    color: whitesmoke;
+    height: 800px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.article-title h1 h2 h3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article-title p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+
+    text-align: justify;
+    font-size: 1.7em;
+}
+.article-title img
+{
+    display: block;
+    margin: auto;
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+
+                    /*css module offer dans la page d'accueil*/
 .circle-offer{
     padding-top: 10px;
     position: relative;

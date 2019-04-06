@@ -1,6 +1,8 @@
-<article id="post-{{ loop.index }}" class="post-{{ loop.index }} post type-post status-publish format-standard has-post-thumbnail hentry category-cakes tag-no-excerpt">
+<article>
+
+
     {% if not truncate %}
-    <div class="callout" style="background-image: url({{page.media['bckgrd.jpg'].url}});background-position: 50% 25%;">
+    <div class="callout" style="background-image: url({{page.media['bckgrd.jpg'].url}});background-position:{{ page.header.position }};">
         <div class="container ">
             <div class="callout-row">
                 <div class="row">
@@ -12,14 +14,27 @@
     </div>
     </div>
     </div></div></div></div>
+        <div class="row">
+                {#Contenu de l'article#}
 
-{% endif %}
+      <div class="col-md-10 article-title">
+          <h1>{{page.header.title}}</h1>
+         <p> Ecrit par: {{ page.header.author.name }} <br>
+             <time datetime="{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}" class="entry-date entry-meta-element published" title="{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}" itemprop="datePublished">{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}</time></p>
+        {{ page.content }}
+      </div>
+       <div class="col-md-2 blog-aside">
+
+           {% include 'partials/aside.html.twig' %}
+
+        </div>
+    {% endif %}
 
 
-
-
+                                                    {#image#}
+    {% if truncate %}
     <div class="entry-media {% if truncate %}entry-{% if page.header.youtube or page.header.soundcloud or page.header.vimeo %}video{% else %}image{% endif %}{% else %} resp_video{% endif %}">
-        <figure class="post-thumbnail">
+        <figure class="col-md-6">
             {% if page.media.images|first %}
                 {{ page.media.images|first.cropZoom(400,400).html('','', 'attachment-receptar-featured size-receptar-featured wp-post-image') }}
             {% else %}
@@ -125,33 +140,7 @@
                         </div>
                     {% endif %}
 
-                    {% if page.header.ingredients %}
-                        <div class="fl-row fl-row-bg-none">
-                            <div class="fl-row-content-wrap">
-                                {% if page.header.ingredients_title %}
-                                    <div class="fl-rich-text">
-                                        <h2>{{ page.header.ingredients_title }}</h2>
-                                    </div>
-                                {% endif %}
-                                {% for row in page.header.ingredients|batch(2) %}
-                                    <div class="fl-col-group">
-                                        {% for item in row %}
-                                            <div class="fl-col fl-col-small" style="width: {% if row|count < 2 %}100{% else %}50{% endif %}%;">
-                                                <div class="fl-rich-text">
-                                                    <h3>{{ item.title }}</h3>
-                                                    <ul>
-                                                        {% for ingredient in item.list %}
-                                                            <li>{{ ingredient }}</li>
-                                                        {% endfor %}
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    {% endif %}
+
                 {% endif %}
                 <div class="clear"></div>
 
@@ -193,4 +182,5 @@
 
         </div>
     </div>
+    {% endif %}
 </article>

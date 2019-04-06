@@ -4,6 +4,7 @@ menu: Nos articles
 blog_url: blog
 body_classes: header-image fullwidth
 
+position: center
 taxonomy:
     category: Framework, mvc
     tag: [Framework, mvc]

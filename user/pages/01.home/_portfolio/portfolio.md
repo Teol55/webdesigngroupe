@@ -2,7 +2,7 @@
 title: présentation
 image_align: right
 bouton: Nos réalisations
-lien: contact
+lien: portfolio
 color: cyan
 ---
 

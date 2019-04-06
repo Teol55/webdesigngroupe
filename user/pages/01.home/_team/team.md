@@ -2,6 +2,7 @@
 title: L'équipe
 image_align: right
 bouton: L'équipe
+lien: equipe
 color: red
 ---
 

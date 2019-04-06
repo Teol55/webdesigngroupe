@@ -3,7 +3,7 @@
 
 {% block content %}
 
-    <div class="callout callout-{{ page.title}}">
+    <div class="callout callout-{{ page.title}}"style="background-image: url({{page.media['bckgrd.jpg'].url}});background-position: {{ page.header.position }};">
         <div class="container ">
             <div class="callout-row">
                 <div class="row">
@@ -30,14 +30,8 @@
 {% endfor %}</div></div>
 <div class="col-md-2 blog-aside">
 
-    {% include 'partials/simplesearch_searchbox.html.twig' %}
+    {% include 'partials/aside.html.twig' %}
 
-    <span class="tags-links entry-meta-element">
-
-          {% for tag in page.taxonomy.tag %}
-              <a href="{{ base_url }}/tag:{{ tag }}" rel="tag">#{{ tag }}{% if not loop.last %}, {% endif %}</a>
-          {% endfor %}
-        </span>
 
 </div>
 </div>

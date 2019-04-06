@@ -2,9 +2,9 @@
 title: portfolio
 image_align: right
 bouton: Tous voir !
-lien: contact
+lien: /portfolio
 color: red
-   
+position: center   
 ---
 
 ## C'est nous qui l'avons fait !

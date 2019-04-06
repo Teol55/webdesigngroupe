@@ -2,7 +2,7 @@
 title: Blog de l'agence
 image_align: right
 bouton: Votre joli projet
-lien: contact
+lien: offre
 color: red
 ---
 

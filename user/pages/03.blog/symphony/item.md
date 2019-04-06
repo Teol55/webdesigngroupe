@@ -10,6 +10,7 @@ author:
 bouton: Lire un autre article
 lien: 
 color: yellow
+position: 50% 25%
 
 ---
 
