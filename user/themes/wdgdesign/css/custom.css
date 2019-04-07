@@ -374,7 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0575D5', end
     padding-top: 250px;
 }
 .together{
-    background-image: url("/user/pages/04.agence/_together/ensemble.jpg");
+    background-image: url("/user/pages/02.agence/_together/ensemble.jpg");
     background-position: 25% 50%;
     z-index: 0;
     position: relative;
@@ -481,7 +481,7 @@ color:snow;}
 .page-contact-container
 {
     margin-top: -66px;
-    position: fixed;
+
     background:snow url("/user/pages/07.contact/contact.jpg") no-repeat center;
     height: 100%;
     width: 100%;
@@ -649,6 +649,16 @@ article{
     text-align: center;
     text-decoration: none;
 }
+.Form-subscriber input{
+    color:black;
+
+}
+.Form-subscriber button{
+    padding: 10px;
+    margin: 6px;
+    background-color: #00EDFF;
+    border-radius: 30px;
+}
 
 @media screen and (max-width: 750px) {
     .menu-text {
@@ -698,6 +708,14 @@ article{
 
     }
 
+}
+.img-team{
+
+}
+.img-team img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */

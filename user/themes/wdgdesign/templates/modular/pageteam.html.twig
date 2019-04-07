@@ -1,0 +1,30 @@
+<div class="presentation">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 text-page-team">
+            {% block content %}
+                {{ page.content }}
+            {% endblock %}
+
+        </div>
+<div class="row">
+
+
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+        {% for image in page.media.images %}
+
+            <div class="col-md-6 img-team">
+                {{ image.cropResize(400,400).html }}
+
+            <h2>{{ image.meta.title }}</h2>
+           <strong> <p>{{ image.meta.description }}</p></strong>
+            <strong>Aime: </strong><p>{{ image.meta.love }}</p>
+            <strong>Déteste: </strong><p>{{ image.meta.hate }}</p>
+            </div>
+
+        {% endfor %}
+            </div>
+
+    </div>
+    </div></div>

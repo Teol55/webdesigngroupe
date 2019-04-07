@@ -80,7 +80,21 @@
             </div>
             <div class="col-sm-12 col-md-3 menu-footer">
                 <h1>NEWSLETTER</h1>
-               <br> formulaire
+                <form action="{{ subscriber() }}" méthode="POST" class="Form-subscriber">
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">e-mail :</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="button">
+                        <button type="submit">Envoyer le message</button>
+                    </div>
+
+
+                </form>
 
 
             </div>

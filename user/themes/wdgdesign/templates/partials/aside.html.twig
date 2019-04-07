@@ -4,7 +4,31 @@
 
 
 
-{% for tag in page.taxonomy.tag %}
-    <a href="{{ base_url }}/search/query:{{ tag }}" rel="tag">#{{ tag }}<br></a>
-{% endfor %}
+    <a href="{{ base_url }}/search/query:Design" rel="tag">#Design<br></a>
+    <a href="{{ base_url }}/search/query:Développement" rel="tag">#Développement<br></a>
+    <a href="{{ base_url }}/search/query:Marketing" rel="tag">#Marketing<br></a>
+    <br><br>
+    <a href="{{ base_url }}/search/query:Arnaud" rel="tag">#Arnaud<br></a>
+    <a href="{{ base_url }}/search/query:Arnaud-Baunel" rel="tag">#Arnaud-Baunel<br></a>
+    <a href="{{ base_url }}/search/query:Christophe" rel="tag">#Christophe<br></a>
+    <a href="{{ base_url }}/search/query:Tiphaine" rel="tag">#Tiphaine<br></a>
+
+    <form action="{{ subscriber() }}" méthode="POST" class="Form-subscriber">
+        <h1>Inscrivez Vous</h1>
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+
+
+    </form>
+
+
 </div>
