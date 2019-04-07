@@ -659,6 +659,23 @@ article{
     background-color: #00EDFF;
     border-radius: 30px;
 }
+.img-team img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.portfolio-cirlcle{
+    padding-top: 40px;
+    position: relative;
+    top: -120px;
+    left: 80px;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(52, 152, 219,0.5);
+    border-radius: 100%;
+}
 
 @media screen and (max-width: 750px) {
     .menu-text {
@@ -709,14 +726,8 @@ article{
     }
 
 }
-.img-team{
 
-}
-.img-team img{
-    height: 400px;
-    width: 400px;
-    border-radius: 100%;
-}
+
 
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 750px) and (max-width: 1280px){
