@@ -9,6 +9,8 @@ content:
     order:
          custom:
             - _callout
-            - _cont
+            - _projet1
+            - _projet2
+            - _contact
             
 ---
