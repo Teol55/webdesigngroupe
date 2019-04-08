@@ -1,16 +1,16 @@
-<div class="">
+<div class="text-alone">
     <div class="row">
         <div class="col-md-4 offset-2 text-center">
             {% block content %}
                 {{ page.content }}
             {% endblock %}
-
+            {% if page.header.bouton %}
             {% include 'partials/buton.html.twig' %}
-
+            {% endif %}
 
 
         </div>
-        <div class="col-md-4 offset-2 ">
+        <div class="col-md-4 offset-1 ">
 
             {% for image in page.media.images %}
 
@@ -19,8 +19,9 @@
 
 
             {% endfor %}
-            <div class="portfolio-cirlcle"><strong>Notre+</strong><br><br>Un parcours autour de l'utilisateur pour une pérformance optimum</div>
-
+            {%  if page.header.offer %}
+            <div class="portfolio-cirlcle"><strong>Notre +</strong><br><br>{{ page.header.offer }}</div>
+            {% endif %}
 
     </div>
     </div></div>

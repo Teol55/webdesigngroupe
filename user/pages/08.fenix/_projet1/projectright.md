@@ -2,14 +2,14 @@
 title: Lorem ipsum
 image_align: right
 
-bouton: Tous voir !
+bouton:
 lien: /fenix
 color: yellow
-position: center  
-offer: Un parcours autour de l'utilisateur pour une pérformance optimum
+position: center
+  
 ---
 
-## Lorem ipsum
+##  QUI SONT-ILS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
 

@@ -2,7 +2,7 @@
 title: Achievements
 image_align: right
 bouton: Le sur mesure
-lien: contact
+lien: /competences
 color: yellow
 ---
 
