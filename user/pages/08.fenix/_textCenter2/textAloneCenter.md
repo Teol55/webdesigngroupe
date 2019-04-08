@@ -1,14 +1,13 @@
 ---
 title: Lorem ipsum
 image_align: right
-bouton: Tous voir !
+bouton: 
 lien: /portfolio
 color: red
-position: center
-offer: un développement sur mesure   
+position: center  
 ---
 
-## Lorem ipsum
+## Les solutions Apportees
 
 
 

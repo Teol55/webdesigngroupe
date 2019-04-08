@@ -676,6 +676,9 @@ article{
     background-color: rgba(52, 152, 219,0.5);
     border-radius: 100%;
 }
+.text-alone{
+    margin: 5%;
+}
 
 @media screen and (max-width: 750px) {
     .menu-text {
