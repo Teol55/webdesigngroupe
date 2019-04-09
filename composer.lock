@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "655f3e16c1c33d89e1baf6383b2efb26",
+    "content-hash": "aab5d10cfc6daaef66e1ca5231e7d3bb",
     "packages": [
+        {
+            "name": "aaronhipple/grav-plugin-mailchimp",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaronhipple/grav-plugin-mailchimp.git",
+                "reference": "101d5dcb41bb1b00bdafe6e57e14e3fb4424c570"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaronhipple/grav-plugin-mailchimp/zipball/101d5dcb41bb1b00bdafe6e57e14e3fb4424c570",
+                "reference": "101d5dcb41bb1b00bdafe6e57e14e3fb4424c570",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "drewm/mailchimp-api": "^2.2",
+                "php": ">=5.4.0"
+            },
+            "type": "grav-plugin",
+            "extra": {
+                "installer-name": "mailchimp",
+                "installer-paths": {
+                    "user/plugins/{$name}/": [
+                        "aaronhipple/grav-plugin-mailchimp"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Hipple",
+                    "email": "ahipple@gmail.com",
+                    "homepage": "https://www.aaronhipple.com"
+                }
+            ],
+            "description": "Add MailChimp subscribe form action support",
+            "homepage": "https://www.aaronhipple.com",
+            "keywords": [
+                "grav",
+                "mailchimp",
+                "plugin"
+            ],
+            "time": "2017-06-28T03:27:27+00:00"
+        },
         {
             "name": "antoligy/dom-string-iterators",
             "version": "v1.0.1",
@@ -105,6 +153,126 @@
                 "tls"
             ],
             "time": "2019-01-28T09:30:10+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2018-08-27T06:10:37+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -293,6 +461,50 @@
                 "useragent"
             ],
             "time": "2019-03-08T20:52:23+00:00"
+        },
+        {
+            "name": "drewm/mailchimp-api",
+            "version": "v2.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drewm/mailchimp-api.git",
+                "reference": "a6519cafba509e754e748d93f3532ad7f3aa515a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/a6519cafba509e754e748d93f3532ad7f3aa515a",
+                "reference": "a6519cafba509e754e748d93f3532ad7f3aa515a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.0.*",
+                "vlucas/phpdotenv": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DrewM\\MailChimp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drew McLellan",
+                    "email": "drew.mclellan@gmail.com",
+                    "homepage": "http://allinthehead.com/"
+                }
+            ],
+            "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+            "homepage": "https://github.com/drewm/mailchimp-api",
+            "time": "2019-03-28T15:20:43+00:00"
         },
         {
             "name": "erusev/parsedown",
