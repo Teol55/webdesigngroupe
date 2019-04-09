@@ -482,7 +482,7 @@ color:snow;}
 {
     margin-top: -66px;
 
-    background:snow url("/user/pages/07.contact/contact.jpg") no-repeat center;
+    background:snow url("/user/pages/06.contact/contact.jpg") no-repeat center;
     height: 100%;
     width: 100%;
 }
@@ -517,6 +517,7 @@ border-top-left-radius: 60%;
 	width : 350px;
 	border: 0px;
 	border-radius: 5px;
+margin-left: 20px;
 }
 
 .form-textarea-wrapper textarea
@@ -525,6 +526,7 @@ border-top-left-radius: 60%;
 	height: 200px;
 	border:0px;
 	border-radius: 5px;
+    margin-left: 20px;
 }
 .page-contact-form label
 {
@@ -659,6 +661,9 @@ article{
     background-color: #00EDFF;
     border-radius: 30px;
 }
+.form-data{
+    width: 20%;
+}
 .img-team img{
     height: 400px;
     width: 400px;
@@ -727,6 +732,15 @@ article{
         padding-top: 400px;
 
     }
+    .form-textarea-wrapper textarea {
+        width: 220px;
+        margin-left: 10px
+    }
+    .form-input-wrapper input
+    {
+        width : 220px;
+        margin-left: 10px
+    }
 
 }
 
@@ -743,7 +757,14 @@ article{
     .contact-text{
         padding-top:300px;
     }
-
-
+    .form-textarea-wrapper textarea {
+        width: 170px;
+        margin-left: 10px
+    }
+    .form-input-wrapper input
+    {
+              width : 170px;
+        margin-left: 10px
+    }
 }
 

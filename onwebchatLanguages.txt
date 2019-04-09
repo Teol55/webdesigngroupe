@@ -1,0 +1,212 @@
+{
+    "min_offline": {
+        "en": "We are offline - Send us an email",
+        "fr": "Hors ligne - Envoyez-nous un message",
+        "ru": " ... "
+    },
+
+    "min_online": {
+        "en": "We are online - chat with us!",
+        "fr": "Nous sommes en ligne - Chattez avez nous !",
+        "ru": " ... "
+    },
+
+    "max_title":{
+        "en": "Chat with us!",
+        "fr": "Chattez avez nous !",
+        "ru": " ... "
+    },
+
+    "max_msg":{
+        "en": "We are online - chat with us!",
+        "fr": "Nous sommes en ligne - Chattez avez nous !",
+        "ru": " ... "
+    },
+
+    "max_served":{
+        "en": "You are served by {{operator}}",
+        "fr": "Vous chattez avec {{operator}}",
+        "ru": " ... "
+    },
+
+    "max_me":{
+        "en": "Me:",
+        "fr": "Moi:",
+        "ru": " ... "
+    },
+
+    "max_agent":{
+        "en": "{{operator}}",
+        "fr": "{{operator}}",
+        "ru": " ... "
+    },
+
+    "max_closed":{
+        "en": "{{operator}} terminated the chat",
+        "fr": "{{operator}} a fermé la conversation",
+        "ru": " ... "
+    },
+
+    "max_gone":{
+        "en": "Operator has gone offline",
+        "fr": "Opérateur est hors ligne",
+        "ru": " ... "
+    },
+
+    "max_placeholder":{
+        "en": "Write your message here ...",
+        "fr": "Ecrivez votre message ici ...",
+        "ru": " ... "
+    },
+
+    "prechat_msg":{
+        "en": "Please give us some info to serve you better.",
+        "fr": "Merci de nous donner quelques informations nous permettant de mieux vous servir.",
+        "ru": " ... "
+    },
+
+    "prechat_btn":{
+        "en": "Start chat!",
+        "fr": "Commencer le chat !",
+        "ru": " ... "
+    },
+
+    "prechat_name":{
+        "en": "Name",
+        "fr": "Nom",
+        "ru": " ... "
+    },
+
+    "prechat_email":{
+        "en": "Email",
+        "fr": "Email",
+        "ru": " ... "
+    },
+
+    "prechat_phone":{
+        "en": "Phone",
+        "fr": "Téléphone",
+        "ru": " ... "
+    },
+
+    "prechat_text":{
+        "en": "How can we help you?",
+        "fr": "Comment pouvons-nous vous aider?",
+        "ru": " ... "
+    },
+
+    "off_title":{
+        "en": "Email us!",
+        "fr": "Envoyez-nous un Email",
+        "ru": " ... "
+    },
+
+    "off_msg":{
+        "en": "Sorry, we are not online at the moment. Leave a message and we will get back to you.",
+        "fr": "Nous sommes désolés, le personnel n'est pas disponible pour le moment.  nous laisser un e-mail.",
+        "ru": " ... "
+    },
+
+    "off_name":{
+        "en": "Name",
+        "fr": "Nom",
+        "ru": " ... "
+    },
+
+    "off_email":{
+        "en": "Email",
+        "fr": "Email",
+        "ru": " ... "
+    },
+
+    "off_phone":{
+        "en": "Phone",
+        "fr": "Téléphone",
+        "ru": " ... "
+    },
+
+    "off_text":{
+        "en": "Message",
+        "fr": "Message",
+        "ru": " ... "
+    },
+
+    "off_send":{
+        "en": "Send",
+        "fr": "Envoyer",
+        "ru": " ... "
+    },
+
+    "off_thank":{
+        "en": "Thank you for contacting us. We will reply to you as soon as possible.",
+        "fr": "Merci de nous contacter. Nous vous répondrons dès que possible.",
+        "ru": " ... "
+    },
+
+    "menu_print": {
+        "en": "Print",
+        "fr": "Imprimer",
+        "ru": " ... "
+    },
+
+    "menu_send_file":{
+        "en": "Send File",
+        "fr": "Envoyer fichier",
+        "ru": " ... "
+    },
+
+    "menu_sound":{
+        "en": "Sound",
+        "fr": "Son",
+        "ru": " ... "
+    },
+
+    "menu_email":{
+        "en": "Email transcript",
+        "fr": "Email transcription",
+        "ru": " ... "
+    },
+
+    "menu_end_chat":{
+        "en": "End chat",
+        "fr": "Fermer le chat",
+        "ru": " ... "
+    },
+
+    "end_chat_msg":{
+        "en": "Are you sure you want to close this chat?",
+        "fr": "Êtes-vous sûr de vouloir fermer ce chat?",
+        "ru": " ... "
+    },
+
+    "email_text":{
+        "en": "Send chat transcript to the following email:",
+        "fr": "Envoyer transcription du chat à l'adresse électronique suivante:",
+        "ru": " ... "
+    },
+
+    "email_sent":{
+        "en": "Transcript sent!",
+        "fr": "Transcription envoyée!",
+        "ru": " ... "
+    },
+
+    "cancel":{
+        "en": "Cancel",
+        "fr": "Annuler",
+        "ru": " ... "
+    },
+
+    "send":{
+        "en": "Send",
+        "fr": "Envoyer",
+        "ru": " ... "
+    },
+
+    "consent_text":{
+        "en": "I agree that my personal data shall be processed and transmitted in accordance with the General Data Protection Regulation",
+        "fr": "J'accepte que mes données personnelles soient traitées et transmises conformément au règlement général sur la protection des données.",
+        "ru": " ... "
+    }
+
+}

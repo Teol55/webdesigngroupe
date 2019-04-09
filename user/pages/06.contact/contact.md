@@ -4,7 +4,7 @@ form:
     name: contact-form
     fields:
         - name: name
-          label: Name
+          label: Nom:
           placeholder: votre nom
           autofocus: on
           autocomplete: on
@@ -55,7 +55,7 @@ form:
             dateformat: Ymd-His-u
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
-        - message: Thank you for your feedback!
+        - message: Merci pour votre retour!
         - display: thankyou
 
 ---
