@@ -1,0 +1,21 @@
+enabled: true
+from: m.ch55000@gmail.com
+from_name: m.ch55000@gmail.com
+to: m.ch55000@gmail.com
+to_name: m.ch55000@gmail.com
+
+content_type: text/html
+debug: false
+cc: m.ch55000@gmail.com
+cc_name: m.ch55000@gmail.com
+bcc: m.ch55000@gmail.com
+reply_to: m.ch55000@gmail.com
+reply_to_name: m.ch55000@gmail.com
+mailer:
+  engine: smtp
+  smtp:
+    server: smtp.mailtrap.io
+    port: 2525
+    encryption: none
+    user: YOUR_MAILTRAP_INBOX_USER
+    password: YOUR_MAILTRAP_INBOX_PASSWORD
