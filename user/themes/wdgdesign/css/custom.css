@@ -685,6 +685,11 @@ article{
     margin: 5%;
 }
 
+
+svg:not(:root) {
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     .menu-text {
         height: 400px;

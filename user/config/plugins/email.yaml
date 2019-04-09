@@ -17,5 +17,5 @@ mailer:
     server: smtp.mailtrap.io
     port: 2525
     encryption: none
-    user: YOUR_MAILTRAP_INBOX_USER
-    password: YOUR_MAILTRAP_INBOX_PASSWORD
+    user: 7f1a95d4c1fc43
+    password: c3325eed8c848a
