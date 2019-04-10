@@ -7,6 +7,7 @@ form:
           label: Nom:
           placeholder: votre nom
           autofocus: on
+          classes: contact-text
           autocomplete: on
           type: text
           validate:
@@ -17,6 +18,7 @@ form:
           placeholder: votre prénom
           autofocus: on
           autocomplete: on
+          classes: contact-text
           type: text
           validate:
             required: true
@@ -25,12 +27,14 @@ form:
           label: Message
           placeholder: Inscrivez votre message
           autofocus: on
+          classes: contact-textarea
           type: textarea
           validate:
             required: true
              
         - name: email
           label: Email
+          classes: contact-text
           placeholder: Entrz votre E-mail
           type: email
           validate:
@@ -55,8 +59,9 @@ form:
             dateformat: Ymd-His-u
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
-        - message: Merci pour votre retour!
-        - display: thankyou
+        - message: Merci pour votre message, nous vous contacterons rapidement.
+        
+        
 
 ---
 

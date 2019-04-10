@@ -26,10 +26,10 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100)%}
-    {% do assets.addJs('theme://js/app.js')%}
+        {% do assets.addJs('theme://js/app.js')%}
 
-        {% endblock %}
-    {{ assets.js() }}
+    {% endblock %}
+        {{ assets.js() }}
 
 {% endblock head%}
 </head>
@@ -78,23 +78,9 @@
                    <a href="/contact">Contact</a>
 
             </div>
-            <div class="col-sm-12 col-md-3 menu-footer">
+            <div class="col-sm-12 col-md-3 menu-footer-news">
                 <h1>NEWSLETTER</h1>
-                <form action="{{ subscriber() }}" méthode="POST" class="Form-subscriber">
-                    <div>
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                        <label for="mail">e-mail :</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div class="button">
-                        <button type="submit">Envoyer le message</button>
-                    </div>
-
-
-                </form>
+                {% include "forms/form.html.twig" with { form: forms('subscribe') } %}
 
 
             </div>
@@ -113,5 +99,17 @@
             <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
         </filter>
     </defs>
-</svg></body>
+</svg>
+        <script type='text/javascript'>
+            var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+            push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},
+            w:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';
+            ga.async=1;ga.src=('https:'==document.location.protocol?'https:':'http:') + 
+            '//www.onwebchat.com/clientchat/cea4c9b1be914ced2b074e07b9fc8e71';var s=
+            document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()};
+
+            onWebChat.set("languageFile","./onwebchatLanguages.txt");
+            onWebChat.set("language", "fr");
+        </script>
+    </body>
 </html>

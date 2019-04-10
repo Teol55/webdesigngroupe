@@ -13,22 +13,12 @@
     <a href="{{ base_url }}/search/query:Christophe" rel="tag">#Christophe<br></a>
     <a href="{{ base_url }}/search/query:Tiphaine" rel="tag">#Tiphaine<br></a>
 
-    <form action="{{ subscriber() }}" méthode="POST" class="Form-subscriber">
-        <h1>Inscrivez Vous</h1>
-        <div>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">e-mail :</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div class="button">
-            <button type="submit">Envoyer le message</button>
-        </div>
+    <div class="col-sm-12 col-md-3 menu-footer-news">
+        <h1>NEWSLETTER</h1>
+        {% include "forms/form.html.twig" with { form: forms('subscribe') } %}
 
 
-    </form>
+    </div>
 
 
 </div>
