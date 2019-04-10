@@ -56,8 +56,8 @@ form:
             dateformat: Ymd-His-u
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
-        - message: Thank you for your feedback!
-        - display: thankyou
+        - message: Merci pour votre message, nous vous contacterons rapidement.
+        - redirect: home
 
 ---
 
