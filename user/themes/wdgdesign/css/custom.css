@@ -511,7 +511,7 @@ border-top-left-radius: 60%;
 }
 
 /*FORMULAIRE*/
-.form-input-wrapper input
+.page-contact-form input
 {
 	height: 50px;
 	width : 350px;
@@ -520,7 +520,7 @@ border-top-left-radius: 60%;
 margin-left: 20px;
 }
 
-.form-textarea-wrapper textarea
+.page-contact-form textarea
 {
 	width: 350px;
 	height: 200px;
@@ -651,11 +651,11 @@ article{
     text-align: center;
     text-decoration: none;
 }
-.Form-subscriber input{
+.menu-footer-news input{
     color:black;
 
 }
-.Form-subscriber button{
+.menu-footer-news button{
     padding: 10px;
     margin: 6px;
     background-color: #00EDFF;

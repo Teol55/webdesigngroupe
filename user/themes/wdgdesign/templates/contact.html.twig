@@ -4,7 +4,7 @@
 
                     <div class="row">
                         <div class="page-contact-form col-md-4 text-center">
-                            {% include "forms/form.html.twig" %}
+                            {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
                         </div>
 
                         <div class="page-contact-text col-md-4 offset-2 text-center">

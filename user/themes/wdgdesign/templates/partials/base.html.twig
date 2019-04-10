@@ -78,23 +78,9 @@
                    <a href="/contact">Contact</a>
 
             </div>
-            <div class="col-sm-12 col-md-3 menu-footer">
+            <div class="col-sm-12 col-md-3 menu-footer-news">
                 <h1>NEWSLETTER</h1>
-                <form action="{{ subscriber() }}" méthode="POST" class="Form-subscriber">
-                    <div>
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                        <label for="mail">e-mail :</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div class="button">
-                        <button type="submit">Envoyer le message</button>
-                    </div>
-
-
-                </form>
+                {% include "forms/form.html.twig" with { form: forms('subscribe') } %}
 
 
             </div>

@@ -3,8 +3,8 @@
     <div class="contact-container">
 
             <div class="row">
-                <div class="form-contact col-md-4 text-center">
-                    {% include "forms/form.html.twig" %}
+                <div class="form-contact col-md-4 text-center page-contact-form">
+                    {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
                 </div>
 
                 <div class="text-contact col-md-4 offset-2 text-center">
