@@ -1,24 +1,7 @@
 @charset "UTF-8";
 .callout-Homepage {
-  background-image: url("/user/pages/01.home/_callout/callout.jpg");
-  background-position: 25% 75%;
   z-index: 0;
   position: relative;
-}
-
-.callout-agence {
-  background-image: url("/user/pages/02.agence/_callout/agence.jpg");
-  background-position: 50% 25%;
-}
-
-.callout-equipe {
-  background-image: url("/user/pages/03.equipe/_callout/equipe.jpg");
-  background-position: 50% 25%;
-}
-
-.callout-portfolio {
-  background-image: url("/user/pages/05.portfolio/_callout/portfolio.jpg");
-  background-position: center;
 }
 
 .callout {

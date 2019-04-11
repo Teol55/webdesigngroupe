@@ -53,6 +53,7 @@
   border: 3px solid #222;
   transition: all 0.3s 0.2s;
   border-radius: 30px;
+  outline: none;
 }
 .blob-btn-cyan:hover {
   color: #222;
@@ -159,6 +160,7 @@
   border: 3px solid #222;
   transition: all 0.3s 0.2s;
   border-radius: 30px;
+  outline: none;
 }
 .blob-btn-yellow:hover {
   color: #222;
@@ -253,6 +255,7 @@
   height: 100%;
   border: 3px solid #ff0000;
   border-radius: 30px;
+  outline: none;
 }
 .blob-btn-red:after {
   content: "";
@@ -265,6 +268,7 @@
   border: 3px solid #222;
   transition: all 0.3s 0.2s;
   border-radius: 30px;
+  outline: none;
 }
 .blob-btn-red:hover {
   color: #222;
@@ -284,6 +288,7 @@
   width: 100%;
   height: 100%;
   border-radius: 30px;
+  outline: none;
 }
 .blob-btn-red__blobs {
   position: relative;
