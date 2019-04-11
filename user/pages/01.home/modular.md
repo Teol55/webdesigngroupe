@@ -34,17 +34,12 @@ form:
              classes: suscribe-text
              type: text
              
-           - name: news_letter
-             type: checkbox
-             classes: suscribe-checkbox
-             label: 'Oui, je veux recevoir des informations'
+           
        buttons:
            -
                type: submit
                value: Submit
-           -
-               type: reset
-               value: Reset
+                     
        process:
            - mailchimp:
                required_fields: [news_letter]

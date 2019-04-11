@@ -651,8 +651,22 @@ article{
     text-align: center;
     text-decoration: none;
 }
+.menu-footer-news{
+    display: block;
+    text-align: left;
+
+}
+.menu-footer-news label
+{
+
+    width: 100px;
+
+
+
+}
 .menu-footer-news input{
     color:black;
+
 
 }
 .menu-footer-news button{
