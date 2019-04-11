@@ -600,14 +600,14 @@ article{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.article-title h1 h2 h3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.article-title{
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 .article-title p{
-    padding-left: 20%;
-    padding-right: 20%;
+
     padding-top: 2%;
 
     text-align: justify;
@@ -651,8 +651,22 @@ article{
     text-align: center;
     text-decoration: none;
 }
+.menu-footer-news{
+    display: block;
+    text-align: left;
+
+}
+.menu-footer-news label
+{
+
+    width: 100px;
+
+
+
+}
 .menu-footer-news input{
     color:black;
+
 
 }
 .menu-footer-news button{
@@ -692,7 +706,7 @@ svg:not(:root) {
 
 @media screen and (max-width: 750px) {
     .menu-text {
-        height: 400px;
+        height: 320px;
         padding-top: 20px;
         font-size: 18px;
     }
@@ -707,7 +721,7 @@ svg:not(:root) {
     }
 
     .contact-text {
-        padding-top: 40px;}
+        padding-top: 20px;}
 
     .achievements img
     {
@@ -741,11 +755,25 @@ svg:not(:root) {
         width: 220px;
         margin-left: 10px
     }
-    .form-input-wrapper input
-    {
-        width : 220px;
+    .form-input-wrapper input {
+        width: 220px;
         margin-left: 10px
+
     }
+    .article-title p{
+
+
+        font-size: 1em;}
+
+img{
+
+        max-width: 100%;
+    height: auto;
+
+    }
+.blog-aside{
+    display: none;
+}
 
 }
 
@@ -771,5 +799,16 @@ svg:not(:root) {
               width : 170px;
         margin-left: 10px
     }
+    .article-title p{
+
+
+        font-size: 1.2em;
+    }
+    img{
+
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 

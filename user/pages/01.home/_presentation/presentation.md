@@ -2,7 +2,7 @@
 title: présentation
 image_align: right
 bouton: Tous voir !
-lien: portfolio
+lien: /portfolio
 color: yellow
 
 ---

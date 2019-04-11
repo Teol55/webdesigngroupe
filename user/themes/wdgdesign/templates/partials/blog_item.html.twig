@@ -18,7 +18,7 @@
                 {#Contenu de l'article#}
 
       <div class="col-md-10 article-title">
-          <h1>{{page.header.title}}</h1>
+<h1>{{ page.title }}</h1>
          <p> Ecrit par: {{ page.header.author.name }} <br>
              <time datetime="{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}" class="entry-date entry-meta-element published" title="{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}" itemprop="datePublished">{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}</time></p>
           {% for tag in page.taxonomy.tag %}
@@ -31,14 +31,14 @@
 
            {% include 'partials/aside.html.twig' %}
 
-        </div>
+       </div></div>
     {% endif %}
 
 
                                                     {#image#}
     {% if truncate %}
     <div class="entry-media {% if truncate %}entry-{% if page.header.youtube or page.header.soundcloud or page.header.vimeo %}video{% else %}image{% endif %}{% else %} resp_video{% endif %}">
-        <figure class="col-md-6">
+        <figure class="col-xs-12 col-md-6">
             {% if page.media.images|first %}
                 {{ page.media.images|first.cropZoom(400,400).html('','', 'attachment-receptar-featured size-receptar-featured wp-post-image') }}
             {% else %}
@@ -168,9 +168,9 @@
 
                 {% if page.header.continue_link is not sameas(false) %}
                     {% if truncate and page.summary != page.content %}
-                        <div class="link-more"><a href="{{ page.url }}">{{ 'READ_MORE'|t }}</a></div>
+                        <div class="link-more"><a href="{{ page.url }}">{{ 'lire la suite'|t }}</a></div>
                     {% elseif truncate %}
-                        <div class="link-more"><a href="{{ page.url }}">{{ 'READ_MORE'|t }}</a></div>
+                        <div class="link-more"><a href="{{ page.url }}">{{ 'lire la suite'|t }}</a></div>
                     {% endif %}
                 {% endif %}
 
@@ -187,4 +187,4 @@
         </div>
     </div>
     {% endif %}
-</article>
+        </article>
