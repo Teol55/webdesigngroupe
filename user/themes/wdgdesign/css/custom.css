@@ -723,6 +723,10 @@ svg:not(:root) {
     .contact-text {
         padding-top: 20px;}
 
+    .contact .buttons{
+        margin-top: 0px;
+    }
+
     .achievements img
     {
         padding-bottom: 10px;
