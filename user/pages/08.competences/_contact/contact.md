@@ -39,7 +39,7 @@ form:
 
     buttons:
         - type: submit
-          value: envoyer
+          value: Envoyer
     
 
     process:

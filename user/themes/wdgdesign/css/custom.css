@@ -569,8 +569,9 @@ margin-left: 20px;
 }
 .text-lien{
     text-align: center;
-    color: blue;
+    color: #ffb500;
     font-size: 18px;
+    text-decoration: none;
 
 
 }
@@ -710,6 +711,23 @@ svg:not(:root) {
 }
 
 @media screen and (max-width: 750px) {
+
+    .page-contact-container .row{
+
+        padding-top: 0px;
+
+    }
+    .text-references{
+        padding-top: 20px;
+
+    }
+    .page-contact-text p{
+        color:black;
+    }
+
+    .accueil-blog{
+        margin-bottom: 0px;
+    }
     .menu-text {
         height: 320px;
         padding-top: 20px;
@@ -757,7 +775,7 @@ svg:not(:root) {
 	font-size:1.7em;
 	}
     .accueil-offer{
-        padding-top: 400px;
+        padding-top: 10px;
 
     }
     .form-textarea-wrapper textarea {
