@@ -35,17 +35,15 @@ form:
         - name: email
           label: Email
           classes: contact-text
-          placeholder: Entrz votre E-mail
+          placeholder: Entrez votre E-mail
           type: email
           validate:
             required: true
 
     buttons:
         - type: submit
-          value: Submit
-        - type: reset
-          value: Reset
-
+          value: Envoyer
+        
     process:
         - email:
             from: "{{ config.plugins.email.from }}"

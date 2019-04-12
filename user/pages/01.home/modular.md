@@ -38,7 +38,7 @@ form:
        buttons:
            -
                type: submit
-               value: Submit
+               value: Envoyer
                      
        process:
            - mailchimp:
