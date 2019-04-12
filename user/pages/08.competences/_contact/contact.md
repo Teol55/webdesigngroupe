@@ -32,16 +32,15 @@ form:
              
         - name: email
           label: Email
-          placeholder: Entrz votre E-mail
+          placeholder: Entrez votre E-mail
           type: email
           validate:
             required: true
 
     buttons:
         - type: submit
-          value: Submit
-        - type: reset
-          value: Reset
+          value: envoyer
+    
 
     process:
         - email:
