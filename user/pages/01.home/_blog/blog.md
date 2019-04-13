@@ -2,7 +2,7 @@
 title: Blog de l'agence
 image_align: right
 bouton: S'inscrire à la newsletter
-lien: contact
+lien: #newsletter
 color: yellow
 ---
 

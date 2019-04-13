@@ -14,6 +14,7 @@
 
             <div class="col-md-6 offset-md-1 sidebar-content recent-posts">
                 <h3>NOS ARTICLES RECENTS</h3>
+                <br>
                 <div class="row">
                 {% for p in page.find('/blog').children.order('date', 'desc').slice(0, 2) %}
                     {% set bannerimage = p.media['banner.jpg'] %}
@@ -25,7 +26,7 @@
                         {% endif %}
                         <div class="recent-post-text">
                             <h4><a href="{{p.url}}">{{ p.title }}</a></h4>
-                            <p>{{ p.date|date("M j, Y")}}</p>
+                            <p>{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("d, Y") }}</p>
                             <p>{{ p.summary }}</p>
                         </div>
                        <div class="text-lien"><a href="blog">Consultez notre blog</a></div>
