@@ -9,7 +9,9 @@ RewriteEngine On
 # along the lines of: RewriteBase /<your_sub_folder>
 ##
 
+
 RewriteBase /
+
 
 ## End - RewriteBase
 
