@@ -1,0 +1,43 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => 'C:/wamp64/www/grav/webdesign/grav-admin/user/plugins/mailchimp/languages.yaml',
+    'modified' => 1554836586,
+    'data' => [
+        'en' => [
+            'MAILCHIMP_SETTINGS' => [
+                'ENABLED' => [
+                    'LABEL' => 'Plugin status',
+                    'OPTIONS' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ]
+                ],
+                'API_KEY' => [
+                    'LABEL' => 'API Key',
+                    'HELP' => 'Your MailChimp API Key'
+                ],
+                'LANGUAGE_DETECTION_MODE' => [
+                    'LABEL' => 'Language Detection Mode',
+                    'HELP' => '\'Browser\' tries to detect the browser\'s language, while \'Active\' uses Grav\'s active language.'
+                ],
+                'DEFAULT_LANGUAGE' => [
+                    'LABEL' => 'Default Language',
+                    'HELP' => 'Subscriber language used if detection fails or the detected language is not supported by MailChimp.'
+                ],
+                'DEFAULT_STATUS' => [
+                    'LABEL' => 'Default Status',
+                    'HELP' => '\'Pending\' sends a confirmation email. \'Subscribed\' does not.',
+                    'OPTIONS' => [
+                        'SUBSCRIBED' => 'Subscribed',
+                        'PENDING' => 'Pending'
+                    ]
+                ],
+                'DELETE_FIRST' => [
+                    'LABEL' => 'Delete Subscriber First',
+                    'HELP' => 'Whether to delete any existing subscriber with the email address we\'re about to add to the list before adding it (useful to re-send confirmation email).'
+                ]
+            ]
+        ]
+    ]
+];
