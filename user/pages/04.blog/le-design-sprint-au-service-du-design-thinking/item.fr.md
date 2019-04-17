@@ -6,9 +6,8 @@ taxonomy:
     category:
         - UXdesign
         - design
-    tag:
-        - sprintdesign
-        - 'design thinking'
+    tag:[sprintdesign, design thinking]
+    author:[Tiphaine]
 author:
     name: Tifn
 bouton: 'Lire un autre article'

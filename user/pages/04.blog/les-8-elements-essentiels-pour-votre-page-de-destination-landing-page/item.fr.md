@@ -5,6 +5,8 @@ taxonomy:
     tag:
         - 'Landing page'
         - 'Page de destination'
+    author:
+            - Arnaud-Baunel
 author:
     name: Arnaud-Baunel
 bouton: 'Lire un autre article'

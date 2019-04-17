@@ -3,11 +3,11 @@
     <div class="contact-container">
 
             <div class="row">
-                <div class="form-contact col-md-4 text-center page-contact-form">
+                <div class="form-contact col-md-4   order-md-1 order-2 text-center page-contact-form">
                     {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
                 </div>
 
-                <div class="text-contact col-md-4 offset-2 text-center">
+                <div class="text-contact col-md-4  order-md-2 offset-md-2 order-1 text-center">
                   {% block content %}
                         {{ page.content }}
                     {% endblock %}

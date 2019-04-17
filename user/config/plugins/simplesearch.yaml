@@ -5,17 +5,17 @@ display_button: true
 min_query_length: 3
 route: /search
 search_content: rendered
-template: simplesearch_results
 filter_combinator: and
+template: simplesearch_results
 ignore_accented_characters: true
 order:
   by: date
   dir: desc
 simplesearch:
-  route: '@self'
+  route: @self
   filters:
-    - '@self'
-    -
-      '@taxonomy':
-        - symfony
+    - @self
+    - @taxonomy: [tag,author]
+    - @author: [name]
   filter_combinator: and
+

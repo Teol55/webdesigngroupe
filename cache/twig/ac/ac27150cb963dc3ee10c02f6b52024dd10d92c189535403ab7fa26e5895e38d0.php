@@ -33,14 +33,14 @@ class __TwigTemplate_c14090eb80ddae737fc39eda77314b11069c9f903939c83c2d7a51b0e78
     <div class=\"contact-container\">
 
             <div class=\"row\">
-                <div class=\"form-contact col-md-4 text-center page-contact-form\">
+                <div class=\"form-contact col-md-4   order-md-1 order-2 text-center page-contact-form\">
                     ";
         // line 7
         $this->loadTemplate("forms/form.html.twig", "modular/contact.html.twig", 7)->display(twig_array_merge($context, ["form" => call_user_func_array($this->env->getFunction('forms')->getCallable(), ["contact-form"])]));
         // line 8
         echo "                </div>
 
-                <div class=\"text-contact col-md-4 offset-2 text-center\">
+                <div class=\"text-contact col-md-4  order-md-2 offset-md-2 order-1 text-center\">
                   ";
         // line 11
         $this->displayBlock('content', $context, $blocks);
@@ -90,11 +90,11 @@ class __TwigTemplate_c14090eb80ddae737fc39eda77314b11069c9f903939c83c2d7a51b0e78
     <div class=\"contact-container\">
 
             <div class=\"row\">
-                <div class=\"form-contact col-md-4 text-center page-contact-form\">
+                <div class=\"form-contact col-md-4   order-md-1 order-2 text-center page-contact-form\">
                     {% include \"forms/form.html.twig\" with { form: forms('contact-form') } %}
                 </div>
 
-                <div class=\"text-contact col-md-4 offset-2 text-center\">
+                <div class=\"text-contact col-md-4  order-md-2 offset-md-2 order-1 text-center\">
                   {% block content %}
                         {{ page.content }}
                     {% endblock %}

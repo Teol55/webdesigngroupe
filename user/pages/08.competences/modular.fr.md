@@ -18,8 +18,8 @@ form:
     name: contact-form
     fields:
         - name: name
-          label: Name
-          placeholder: votre nom
+          label: Nom
+          placeholder: Votre nom
           autofocus: on
           autocomplete: on
           type: text

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav/webdesign/grav-admin/user/config/plugins/simplesearch.yaml',
-    'modified' => 1554548785,
+    'modified' => 1555520428,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -11,8 +11,8 @@ return [
         'min_query_length' => 3,
         'route' => '/search',
         'search_content' => 'rendered',
-        'template' => 'simplesearch_results',
         'filter_combinator' => 'and',
+        'template' => 'simplesearch_results',
         'ignore_accented_characters' => true,
         'order' => [
             'by' => 'date',
@@ -24,7 +24,13 @@ return [
                 0 => '@self',
                 1 => [
                     '@taxonomy' => [
-                        0 => 'symfony'
+                        0 => 'tag',
+                        1 => 'author'
+                    ]
+                ],
+                2 => [
+                    '@author' => [
+                        0 => 'name'
                     ]
                 ]
             ],

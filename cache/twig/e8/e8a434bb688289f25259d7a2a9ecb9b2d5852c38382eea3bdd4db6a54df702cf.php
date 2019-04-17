@@ -89,7 +89,7 @@ class __TwigTemplate_3c0d243630c4c0f9f4515cf19ee8fa7613533660915d8ca7a215c9c45c8
             '//www.onwebchat.com/clientchat/cea4c9b1be914ced2b074e07b9fc8e71';var s=
             document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()};
 
-            onWebChat.set(\"languageFile\",\"http://cpmprojet5.atipicdecouvertesportives.fr/fr/onwebchatLanguages.txt\");
+            onWebChat.set(\"languageFile\",\"/onwebchatLanguages.txt\");
             onWebChat.set(\"language\", \"fr\");
         </script>
     </body>
@@ -407,7 +407,7 @@ class __TwigTemplate_3c0d243630c4c0f9f4515cf19ee8fa7613533660915d8ca7a215c9c45c8
             '//www.onwebchat.com/clientchat/cea4c9b1be914ced2b074e07b9fc8e71';var s=
             document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()};
 
-            onWebChat.set(\"languageFile\",\"http://cpmprojet5.atipicdecouvertesportives.fr/fr/onwebchatLanguages.txt\");
+            onWebChat.set(\"languageFile\",\"/onwebchatLanguages.txt\");
             onWebChat.set(\"language\", \"fr\");
         </script>
     </body>

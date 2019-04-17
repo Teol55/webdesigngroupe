@@ -36,35 +36,14 @@ class __TwigTemplate_6b5e837ad9dee6f5ce583c608f6ccb3aa920879309d429af589643c0525
 
 
 
-    <a href=\"";
-        // line 7
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Design\" rel=\"tag\">#Design<br></a>
-    <a href=\"";
-        // line 8
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Développement\" rel=\"tag\">#Développement<br></a>
-    <a href=\"";
-        // line 9
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Marketing\" rel=\"tag\">#Marketing<br></a>
+    <a href=\"/search/query:Design\" rel=\"tag\">#Design<br></a>
+    <a href=\"/search/query:Developpement\" rel=\"tag\">#Développement<br></a>
+    <a href=\"/search/query:Marketing\" rel=\"tag\">#Marketing<br></a>
     <br><br>
-    <a href=\"";
-        // line 11
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Arnaud\" rel=\"tag\">#Arnaud<br></a>
-    <a href=\"";
-        // line 12
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Arnaud-Baunel\" rel=\"tag\">#Arnaud-Baunel<br></a>
-    <a href=\"";
-        // line 13
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Christophe\" rel=\"tag\">#Christophe<br></a>
-    <a href=\"";
-        // line 14
-        echo ($context["base_url"] ?? null);
-        echo "/search/query:Tiphaine\" rel=\"tag\">#Tiphaine<br></a>
+    <a href=\"/search/query:Arnaud\" rel=\"tag\">#Arnaud<br></a>
+    <a href=\"/search/query:Arnaud-Baunel\" rel=\"tag\">#Arnaud-Baunel<br></a>
+    <a href=\"/search/query:Christophe\" rel=\"tag\">#Christophe<br></a>
+    <a href=\"/search/query:Tiphaine\" rel=\"tag\">#Tiphaine<br></a>
 
     <div class=\"col-sm-12 col-md-3 menu-footer-news\">
         <h1>NEWSLETTER</h1>
@@ -92,7 +71,7 @@ class __TwigTemplate_6b5e837ad9dee6f5ce583c608f6ccb3aa920879309d429af589643c0525
 
     public function getDebugInfo()
     {
-        return array (  75 => 19,  73 => 18,  66 => 14,  62 => 13,  58 => 12,  54 => 11,  49 => 9,  45 => 8,  41 => 7,  34 => 3,  30 => 1,);
+        return array (  54 => 19,  52 => 18,  34 => 3,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -111,14 +90,14 @@ class __TwigTemplate_6b5e837ad9dee6f5ce583c608f6ccb3aa920879309d429af589643c0525
 
 
 
-    <a href=\"{{ base_url }}/search/query:Design\" rel=\"tag\">#Design<br></a>
-    <a href=\"{{ base_url }}/search/query:Développement\" rel=\"tag\">#Développement<br></a>
-    <a href=\"{{ base_url }}/search/query:Marketing\" rel=\"tag\">#Marketing<br></a>
+    <a href=\"/search/query:Design\" rel=\"tag\">#Design<br></a>
+    <a href=\"/search/query:Developpement\" rel=\"tag\">#Développement<br></a>
+    <a href=\"/search/query:Marketing\" rel=\"tag\">#Marketing<br></a>
     <br><br>
-    <a href=\"{{ base_url }}/search/query:Arnaud\" rel=\"tag\">#Arnaud<br></a>
-    <a href=\"{{ base_url }}/search/query:Arnaud-Baunel\" rel=\"tag\">#Arnaud-Baunel<br></a>
-    <a href=\"{{ base_url }}/search/query:Christophe\" rel=\"tag\">#Christophe<br></a>
-    <a href=\"{{ base_url }}/search/query:Tiphaine\" rel=\"tag\">#Tiphaine<br></a>
+    <a href=\"/search/query:Arnaud\" rel=\"tag\">#Arnaud<br></a>
+    <a href=\"/search/query:Arnaud-Baunel\" rel=\"tag\">#Arnaud-Baunel<br></a>
+    <a href=\"/search/query:Christophe\" rel=\"tag\">#Christophe<br></a>
+    <a href=\"/search/query:Tiphaine\" rel=\"tag\">#Tiphaine<br></a>
 
     <div class=\"col-sm-12 col-md-3 menu-footer-news\">
         <h1>NEWSLETTER</h1>

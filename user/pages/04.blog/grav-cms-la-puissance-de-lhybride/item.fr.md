@@ -8,6 +8,10 @@ taxonomy:
     tag:
         - cms
         - grav
+    author:
+        - Arnaud
+author:
+    name: Arnaud
 bouton: 'Lire un autre article'
 lien: /blog
 color: yellow

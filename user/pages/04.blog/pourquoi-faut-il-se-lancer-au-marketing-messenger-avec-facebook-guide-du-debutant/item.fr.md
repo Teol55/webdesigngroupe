@@ -7,6 +7,8 @@ taxonomy:
         - ChatBot
         - Facebook
         - 'Marketing Messenger'
+    author:
+        - Arnaud-Baunel
 author:
     name: Arnaud-Baunel
 bouton: 'Lire un autre article'

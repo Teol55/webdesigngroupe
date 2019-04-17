@@ -22,7 +22,7 @@
          <p> Ecrit par: {{ page.header.author.name }} <br>
              <time datetime="{{ page.date|date("M d, Y") }}" >{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }}{{ page.date|date(" d, Y") }}</time></p>
           {% for tag in page.taxonomy.tag %}
-              <a href="{{ base_url }}/search/query:{{ tag }}" rel="tag">#{{ tag }}<br></a>
+              <a href="/search/query:{{ tag }}" rel="tag">#{{ tag }}<br></a>
           {% endfor %}
 
         {{ page.content }}

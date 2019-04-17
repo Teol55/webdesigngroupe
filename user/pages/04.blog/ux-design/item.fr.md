@@ -1,6 +1,9 @@
 ---
 title: 'Qu''est ce que l''UX design'
 date: 10/04/2019
+taxonomy:
+    author:
+        - Tiphaine
 author:
     name: Tifn
 bouton: 'Lire un autre article'

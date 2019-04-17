@@ -5,6 +5,8 @@ taxonomy:
     tag:
         - Developpement
         - CMS
+    author:
+        - Arnaud
 author:
     name: Arnaud
 bouton: 'Lire un autre article'

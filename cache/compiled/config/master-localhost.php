@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1555269664,
-    'checksum' => 'b6f35e0dae4eedb6e7d1966bdd6ffd29',
+    'timestamp' => 1555520429,
+    'checksum' => '62a89510284438b7de248f7eca6211b8',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/config/plugins/simplesearch.yaml',
-                'modified' => 1554548785
+                'modified' => 1555520428
             ],
             'plugins/subscriber' => [
                 'file' => 'user/config/plugins/subscriber.yaml',
@@ -413,7 +413,13 @@ return [
                         0 => '@self',
                         1 => [
                             '@taxonomy' => [
-                                0 => 'symfony'
+                                0 => 'tag',
+                                1 => 'author'
+                            ]
+                        ],
+                        2 => [
+                            '@author' => [
+                                0 => 'name'
                             ]
                         ]
                     ],
