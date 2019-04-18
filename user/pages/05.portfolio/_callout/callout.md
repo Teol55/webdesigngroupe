@@ -1,7 +1,7 @@
 ---
 title: portfolio
 image_align: right
-bouton: Tous voir !
+bouton: Tout voir !
 lien: /portfolio
 color: red
 position: center   

@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum
+title: THIERART AGRI
 image_align: right
 bouton: Tout voir !
 lien: /portfolio
