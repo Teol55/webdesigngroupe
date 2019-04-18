@@ -1,7 +1,7 @@
 ---
 title: présentation
 image_align: right
-bouton: Tous voir !
+bouton: Tout voir !
 lien: /portfolio
 color: yellow
 
