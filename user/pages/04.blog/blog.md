@@ -1,6 +1,6 @@
 ---
 title: Blog
-menu: Nos articles
+menu: Nos Articles
 blog_url: blog
 body_classes: header-image fullwidth
 
