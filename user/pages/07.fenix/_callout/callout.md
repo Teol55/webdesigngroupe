@@ -12,5 +12,4 @@ position: center
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-
+Nous avons été contacté par la société Finix Event afin de remettre au gout du jour leur site internet qui était désuet, mal référencé et ne leur amenait pas la clientèle recherchée. Nous avons donc travaillé autour de l'expérience utilisateur afin de cibler les bonnes personnes, puis nous avons rendu le site plus moderne avec un design dans l'air du temps et enfin nous avons amélioré le référencement.

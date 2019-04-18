@@ -11,4 +11,4 @@ position: center
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+Nous avons amélioré l'ergonomie du site en ajoutant des call to action afin de créer plus d'interaction entre les visiteurs et le site. Nous avons amélioré le référencement grâces aux bonnes pratiques de l'OPCAST. Par la suite nous avons pu accélerer le trafic grâce au référencement payant sur des mots clés importants qui ont permis aux internautes de trouver plus facilement le site.

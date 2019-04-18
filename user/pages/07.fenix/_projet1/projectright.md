@@ -11,5 +11,7 @@ position: center
 
 ##  QUI SONT-ILS
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+Finix Events est spécialisé dans l'organisation de tout type d'événement d'entreprise dans le domaine financier.
+
+Finix Events est composé de gestionnaires d'événements ayant une expérience de 10 ans en tant qu'organisateurs professionnels de conférences…
 

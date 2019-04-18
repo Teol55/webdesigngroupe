@@ -1,15 +1,15 @@
 ---
 title: Lorem ipsum
 image_align: right
-bouton: Tous voir !
+bouton: Tout voir !
 lien: /portfolio
 color: red
 position: center
 offer: un développement sur mesure   
 ---
 
-## Lorem ipsum
+## THIERART AGRI
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+Spécialiste de la vente et de la réparation de matériels agricoles depuis plus de 70 ans, THIERART AGRI est distributeur HOLMER, DEUTZ FAHR, AGRIFAC, ARLAND, BOBCAT et NAÏO Technologies. Elle nous a contacté afin de répondre à un besoin de communication.

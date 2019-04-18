@@ -2,14 +2,14 @@
 title: Lorem ipsum
 image_align: right
 
-bouton: Tous voir !
+bouton: Tout voir !
 lien: /fenix
 color: yellow
 position: center  
 offer: Un parcours autour de l'utilisateur pour une pérformance optimum
 ---
 
-## Lorem ipsum
+## Finix Events
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+Finix Events est spécialisé dans l'organisation de tout type d'événement d'entreprise dans le domaine financier.Elle nous a contacté afin de remettre au gout du jour leur site internet qui était désuet, mal référencé et ne leur amenait pas la clientèle recherchée. 
 
